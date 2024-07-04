@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script type="text/javascript" src="res/Resemble.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.capture("report_feature",{distinct_id:"58e1cc9c-c6ec-463e-bd8c-3d165b5f3a7b",karate_version:"1.4.1",karate_meta:null});
+  }
+});
+</script>
+
+    <title>viewall.features.CreateInvestment</title>
+  </head>
+  <body>
+    <div id="root-container">
+      <div id="leftnav">
+        
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">0</div>
+      <div id="nav-fail" class="bg-danger">1</div>
+    </div>
+  </div>
+  <div id="nav-env">
+    <div></div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>
+  <div id="nav-date">
+    <div>2024-07-04 06:36:39 PM</div>
+  </div>
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item failed">
+            <a href="#[1:6]"><span>[1:6]</span> <span>Create Investment</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">viewall/features/CreateInvestment.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Risks Analysis - Create Investment</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:6]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:6]</span>
+                <span class="scenario-name">Create Investment</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>1759</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:6]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:6]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.3">
+      <div class="step-ref bg-step">3</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url apiURL</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.3">18:36:36.055 karate.env system property was: null 
+18:36:37.273 this thread waited 1211 milliseconds for callSingle lock: classpath:helpers/GetToken.feature
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.7">
+      <div class="step-ref passed">7</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/api/v1/investments&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref passed">8</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">26</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.8">{ 
+    &quot;categoryId&quot;: &quot;#(parseInt(categoryId))&quot;, 
+    &quot;depotId&quot;: 10, 
+    &quot;description&quot;: &quot;#(description)&quot;, 
+    &quot;quantity&quot;: 1, 
+    &quot;purchasePriceAvg&quot;: 1, 
+    &quot;currentPrice&quot;: &quot;#(parseInt(currentValue))&quot;, 
+    &quot;currencyCode&quot;: &quot;#(currencyCode)&quot;, 
+    &quot;investedPrivately&quot;: 1 
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.21">
+      <div class="step-ref passed">21</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1719</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.21">18:36:37.323 request:
+1 &gt; POST https://api-pagsubok.viewall.dk/api/v1/investments
+1 &gt; Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJZVzZnZTkxakpPZnZjWm9obkJmS1FCZnlLLTFKVE9Fa2h6N2lscVk3OS0wIn0.eyJleHAiOjE3MjAxNzU3OTcsImlhdCI6MTcyMDA4OTM5NywianRpIjoiNGZjOGNmNGYtYmMwOS00MmQyLWEzMGEtNzQ2ODNkODNjODg2IiwiaXNzIjoiaHR0cHM6Ly9kZXYtaWFtLXZpZXdhbGwud2VzdGV1cm9wZS5jbG91ZGFwcC5henVyZS5jb20vcmVhbG1zL1ZpZXdBbGwiLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiMzJjYTZlYWYtOTQyZC00MDZiLWIxMTYtNTE2NTE1MTI0M2VhIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiVmlld0FsbC5XZWJBcHAiLCJzZXNzaW9uX3N0YXRlIjoiOWZkMThiN2UtYzIyOC00OTg1LWJlNzQtM2E3OGE0ZjkzYjcwIiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyJodHRwczovL3BhZ3N1Ym9rLnZpZXdhbGwuZGsiLCJodHRwczovL2xvY2FsaG9zdDozMDAwIiwiaHR0cHM6Ly9sb2NhbGhvc3Q6NzI4MS8qIiwiaHR0cDovL2xvY2FsaG9zdDozMDAwLyoiLCJodHRwczovL2Rldi1pYW0tdmlld2FsbC53ZXN0ZXVyb3BlLmNsb3VkYXBwLmF6dXJlLmNvbSIsImh0dHA6Ly9sb2NhbGhvc3Q6MzAwMS8qIiwiaHR0cDovL2xvY2FsaG9zdDozMDAxIiwiaHR0cDovL2xvY2FsaG9zdDozMDAwIiwiaHR0cHM6Ly9sb2NhbGhvc3Q6MzAwMC8qIl0sInNjb3BlIjoib3BlbmlkIGVtYWlsIHByb2ZpbGUiLCJzaWQiOiI5ZmQxOGI3ZS1jMjI4LTQ5ODUtYmU3NC0zYTc4YTRmOTNiNzAiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZG9iIjoiMTktMDQtMTk5NSIsInJvbGVzIjpbImRlZmF1bHQtcm9sZXMtdmlld2FsbCIsIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXSwibmFtZSI6IkFsYnVzIER1bWJsZWRvcmUiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJkYm1pZ3Jpbm9AZ21haWwuY29tIiwiZ2l2ZW5fbmFtZSI6IkFsYnVzIiwiZmFtaWx5X25hbWUiOiJEdW1ibGVkb3JlIiwiZW1haWwiOiJkYm1pZ3Jpbm9AZ21haWwuY29tIn0.ocTjH7IVbNAVYjP40ci7MO6brObZ71airuwE_se1-ii-zbdQoo8cgt7UsPN1fWH5MCBGDTM3QKdvyGFqNYKzGQIhkkWWWxF0Oe6ZytExpoCwZRjHY2xhV7NkHA0Ge6x2frrbSd-ef4MiMrSBcDCcG8bWLf-dhQ6d4KfhIubC_7UDx6WoXg9on_TouemnZE4Bhk53T63P7hCdsWI2mzQhvnM-uTL258g2CJSOmSYnE85BZAtVEYbWun6rK52NMZoM5_-E2r__KVD_C53tL2kSqct4KcQUDHnRgO1EW0q2fp4yKeTu0PunT501QHV4y9xlxND6mH-M7Ti18gZTeSVyzw
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 216
+1 &gt; Host: api-pagsubok.viewall.dk
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.23)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;categoryId&quot;:&quot;#(parseInt(categoryId))&quot;,&quot;depotId&quot;:10,&quot;description&quot;:&quot;#(description)&quot;,&quot;quantity&quot;:1,&quot;purchasePriceAvg&quot;:1,&quot;currentPrice&quot;:&quot;#(parseInt(currentValue))&quot;,&quot;currencyCode&quot;:&quot;#(currencyCode)&quot;,&quot;investedPrivately&quot;:1}
+
+18:36:39.028 response time in milliseconds: 1705
+1 &lt; 400
+1 &lt; content-length: 505
+1 &lt; content-type: application/problem+json; charset=utf-8
+1 &lt; date: Thu, 04 Jul 2024 10:36:39 GMT
+1 &lt; server: Kestrel
+1 &lt; request-context: appId=cid-v1:3fd22e07-3840-4488-be75-bfd2a37f8f04
+1 &lt; x-frame-options: SAMEORIGIN
+1 &lt; x-content-type-options: nosniff
+1 &lt; strict-transport-security: max-age=31536000; includeSubDomains
+1 &lt; x-xss-protection: 1; mode=block
+1 &lt; referrer-policy: strict-origin
+1 &lt; permissions-policy: accelerometer=(); camera=(); geolocation=(); gyroscope=(); magnetometer=(); microphone=(); payment=(); usb=()
+1 &lt; content-security-policy: default-src &#39;none&#39;;
+{&quot;errors&quot;:{&quot;request&quot;:[&quot;The request field is required.&quot;],&quot;categoryId&quot;:[&quot;Error converting value \&quot;#(parseInt(categoryId))\&quot; to type &#39;System.Int64&#39;. Path &#39;categoryId&#39;, line 1, position 39.&quot;],&quot;currentPrice&quot;:[&quot;Could not convert string to decimal: #(parseInt(currentValue)). Path &#39;currentPrice&#39;, line 1, position 160.&quot;]},&quot;type&quot;:&quot;https://tools.ietf.org/html/rfc7231#section-6.5.1&quot;,&quot;title&quot;:&quot;One or more validation errors occurred.&quot;,&quot;status&quot;:400,&quot;traceId&quot;:&quot;00-a1b86c76246e98f7397805e4a8bc7f25-004d273a31eb4e46-00&quot;}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.22">
+      <div class="step-ref failed">22</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell failed">13</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.22">18:36:39.044 classpath:viewall/features/CreateInvestment.feature:22
+Then status 200
+status code was: 400, expected: 200, response time in milliseconds: 1705, url: https://api-pagsubok.viewall.dk/api/v1/investments, response: 
+{&quot;errors&quot;:{&quot;request&quot;:[&quot;The request field is required.&quot;],&quot;categoryId&quot;:[&quot;Error converting value \&quot;#(parseInt(categoryId))\&quot; to type &#39;System.Int64&#39;. Path &#39;categoryId&#39;, line 1, position 39.&quot;],&quot;currentPrice&quot;:[&quot;Could not convert string to decimal: #(parseInt(currentValue)). Path &#39;currentPrice&#39;, line 1, position 160.&quot;]},&quot;type&quot;:&quot;https://tools.ietf.org/html/rfc7231#section-6.5.1&quot;,&quot;title&quot;:&quot;One or more validation errors occurred.&quot;,&quot;status&quot;:400,&quot;traceId&quot;:&quot;00-a1b86c76246e98f7397805e4a8bc7f25-004d273a31eb4e46-00&quot;}
+classpath:viewall/features/CreateInvestment.feature:22
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

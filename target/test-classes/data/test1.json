@@ -1,0 +1,1243 @@
+{
+    "testSet": "Test1",
+    "testID": 1,
+    "age": 21,
+    "birthDate": "14-09-2002",
+    "expectedScore": 3,
+    "pensions": [
+      {
+        "birthdate": "14-09-2002",
+        "provider_name": "PFA",
+        "profile_type": "",
+        "pension_type": "standard",
+        "pension_savings": "10000"
+      },
+      {
+        "birthdate": "14-09-2002",
+        "provider_name": "PFA",
+        "profile_type": "",
+        "pension_type": "standard",
+        "pension_savings": "120000"
+      },
+      {
+        "birthdate": "14-09-2002",
+        "provider_name": "PFA",
+        "profile_type": "",
+        "pension_type": "standard",
+        "pension_savings": "123300"
+      },
+      {
+        "birthdate": "14-09-2002",
+        "provider_name": "Nordea",
+        "profile_type": "",
+        "pension_type": "standard",
+        "pension_savings": "223002"
+      }
+    ],
+    "investments": [
+      {
+        "description": "Investment 1",
+        "category": "Aktier",
+        "categoryId": 1,
+        "currentValue": "200000"
+      },
+      {
+        "description": "Investment 2",
+        "category": "Obligationer",
+        "categoryId": 2,
+        "currentValue": "300000"
+      },
+      {
+        "description": "Investment 3",
+        "category": "Puljer",
+        "categoryId": 3,
+        "currentValue": "10000"
+      },
+      {
+        "description": "Investment 4",
+        "category": "Other",
+        "categoryId": 4,
+        "currentValue": "200000"
+      }
+    ],
+    "real_estate": [
+      {
+        "description": "Property 1",
+        "property_type": "Villa",
+        "property_type_id": 1,
+        "value_estimated": "50000000",
+        "ownership_pct": "50"
+      },
+      {
+        "description": "Property 1",
+        "property_type": "Apartment",
+        "property_type_id": 2,
+        "value_estimated": "2500000",
+        "ownership_pct": "100"
+      }
+    ],
+    "business_ownership": [
+      {
+        "description ": "company 1",
+        "estimated_value": 10000000,
+        "ownership_pct": 35
+      }
+    ],
+    "wealth_savings": [
+      {
+        "description": "Savings 1",
+        "current_value": "500000",
+        "ownership_pct": "100",
+        "include_in_pension_calc": true
+      }
+    ],
+    "profile_types": [
+      {
+        "Alder": "21",
+        "Company": "PFA",
+        "Standard": "Profil A",
+        "Profil Type": "Profil A",
+        "Stats- og real": "0,066",
+        "Investment-grade obl": "0,083",
+        "High-yield Obl": "0,05",
+        "Emerging markets StatsObl": "0,095",
+        "Globale aktier": "0,076",
+        "Emerging markets A": "0,156",
+        "Private equity": "0,092",
+        "Infrastruktur": "0,093",
+        "Ejendomme": "0,094",
+        "Hedgefonde": "0,195"
+      },
+      {
+        "Alder": "22",
+        "Company": "PFA",
+        "Standard": "Profil A",
+        "Profil Type": "Profil A",
+        "Stats- og real": "0,073",
+        "Investment-grade obl": "0,119",
+        "High-yield Obl": "0,063",
+        "Emerging markets StatsObl": "0,149",
+        "Globale aktier": "0,105",
+        "Emerging markets A": "0,091",
+        "Private equity": "0,026",
+        "Infrastruktur": "0,155",
+        "Ejendomme": "0,148",
+        "Hedgefonde": "0,071"
+      },
+      {
+        "Alder": "23",
+        "Company": "PFA",
+        "Standard": "Profil A",
+        "Profil Type": "Profil A",
+        "Stats- og real": "0,047",
+        "Investment-grade obl": "0,133",
+        "High-yield Obl": "0,034",
+        "Emerging markets StatsObl": "0,134",
+        "Globale aktier": "0,101",
+        "Emerging markets A": "0,022",
+        "Private equity": "0,186",
+        "Infrastruktur": "0,167",
+        "Ejendomme": "0,083",
+        "Hedgefonde": "0,094"
+      },
+      {
+        "Alder": "24",
+        "Company": "PFA",
+        "Standard": "Profil A",
+        "Profil Type": "Profil A",
+        "Stats- og real": "0,08",
+        "Investment-grade obl": "0,156",
+        "High-yield Obl": "0,153",
+        "Emerging markets StatsObl": "0,14",
+        "Globale aktier": "0,136",
+        "Emerging markets A": "0,162",
+        "Private equity": "0,053",
+        "Infrastruktur": "0,032",
+        "Ejendomme": "0,042",
+        "Hedgefonde": "0,047"
+      },
+      {
+        "Alder": "25",
+        "Company": "PFA",
+        "Standard": "Profil A",
+        "Profil Type": "Profil A",
+        "Stats- og real": "0,147",
+        "Investment-grade obl": "0,133",
+        "High-yield Obl": "0,105",
+        "Emerging markets StatsObl": "0,064",
+        "Globale aktier": "0,084",
+        "Emerging markets A": "0,111",
+        "Private equity": "0,13",
+        "Infrastruktur": "0,048",
+        "Ejendomme": "0,109",
+        "Hedgefonde": "0,069"
+      },
+      {
+        "Alder": "21",
+        "Company": "PFA",
+        "Standard": "Profil B",
+        "Profil Type": "Profil B",
+        "Stats- og real": "0,12",
+        "Investment-grade obl": "0,052",
+        "High-yield Obl": "0,059",
+        "Emerging markets StatsObl": "0,036",
+        "Globale aktier": "0,083",
+        "Emerging markets A": "0,127",
+        "Private equity": "0,155",
+        "Infrastruktur": "0,198",
+        "Ejendomme": "0,086",
+        "Hedgefonde": "0,083"
+      },
+      {
+        "Alder": "22",
+        "Company": "PFA",
+        "Standard": "Profil B",
+        "Profil Type": "Profil B",
+        "Stats- og real": "0,223",
+        "Investment-grade obl": "0,057",
+        "High-yield Obl": "0,184",
+        "Emerging markets StatsObl": "0,132",
+        "Globale aktier": "0,074",
+        "Emerging markets A": "0,047",
+        "Private equity": "0,054",
+        "Infrastruktur": "0,061",
+        "Ejendomme": "0,031",
+        "Hedgefonde": "0,136"
+      },
+      {
+        "Alder": "23",
+        "Company": "PFA",
+        "Standard": "Profil B",
+        "Profil Type": "Profil B",
+        "Stats- og real": "0,057",
+        "Investment-grade obl": "0,036",
+        "High-yield Obl": "0,109",
+        "Emerging markets StatsObl": "0,002",
+        "Globale aktier": "0,191",
+        "Emerging markets A": "0,122",
+        "Private equity": "0,066",
+        "Infrastruktur": "0,126",
+        "Ejendomme": "0,122",
+        "Hedgefonde": "0,169"
+      },
+      {
+        "Alder": "24",
+        "Company": "PFA",
+        "Standard": "Profil B",
+        "Profil Type": "Profil B",
+        "Stats- og real": "0,052",
+        "Investment-grade obl": "0,104",
+        "High-yield Obl": "0,007",
+        "Emerging markets StatsObl": "0,269",
+        "Globale aktier": "0,061",
+        "Emerging markets A": "0,194",
+        "Private equity": "0,118",
+        "Infrastruktur": "0,08",
+        "Ejendomme": "0,03",
+        "Hedgefonde": "0,085"
+      },
+      {
+        "Alder": "25",
+        "Company": "PFA",
+        "Standard": "Profil B",
+        "Profil Type": "Profil B",
+        "Stats- og real": "0,127",
+        "Investment-grade obl": "0,162",
+        "High-yield Obl": "0,119",
+        "Emerging markets StatsObl": "0,06",
+        "Globale aktier": "0,035",
+        "Emerging markets A": "0,002",
+        "Private equity": "0,086",
+        "Infrastruktur": "0,245",
+        "Ejendomme": "0,047",
+        "Hedgefonde": "0,118"
+      },
+      {
+        "Alder": "21",
+        "Company": "Nordea",
+        "Standard": "",
+        "Profil Type": "Globale aktier",
+        "Stats- og real": "0",
+        "Investment-grade obl": "0",
+        "High-yield Obl": "0",
+        "Emerging markets StatsObl": "0",
+        "Globale aktier": "1",
+        "Emerging markets A": "0",
+        "Private equity": "0",
+        "Infrastruktur": "0",
+        "Ejendomme": "0",
+        "Hedgefonde": "0"
+      },
+      {
+        "Alder": "22",
+        "Company": "Nordea",
+        "Standard": "",
+        "Profil Type": "Globale aktier",
+        "Stats- og real": "0",
+        "Investment-grade obl": "0",
+        "High-yield Obl": "0",
+        "Emerging markets StatsObl": "0",
+        "Globale aktier": "1",
+        "Emerging markets A": "0",
+        "Private equity": "0",
+        "Infrastruktur": "0",
+        "Ejendomme": "0",
+        "Hedgefonde": "0"
+      },
+      {
+        "Alder": "23",
+        "Company": "Nordea",
+        "Standard": "",
+        "Profil Type": "Globale aktier",
+        "Stats- og real": "0",
+        "Investment-grade obl": "0",
+        "High-yield Obl": "0",
+        "Emerging markets StatsObl": "0",
+        "Globale aktier": "1",
+        "Emerging markets A": "0",
+        "Private equity": "0",
+        "Infrastruktur": "0",
+        "Ejendomme": "0",
+        "Hedgefonde": "0"
+      },
+      {
+        "Alder": "24",
+        "Company": "Nordea",
+        "Standard": "",
+        "Profil Type": "Globale aktier",
+        "Stats- og real": "0",
+        "Investment-grade obl": "0",
+        "High-yield Obl": "0",
+        "Emerging markets StatsObl": "0",
+        "Globale aktier": "1",
+        "Emerging markets A": "0",
+        "Private equity": "0",
+        "Infrastruktur": "0",
+        "Ejendomme": "0",
+        "Hedgefonde": "0"
+      },
+      {
+        "Alder": "25",
+        "Company": "Nordea",
+        "Standard": "",
+        "Profil Type": "Globale aktier",
+        "Stats- og real": "0",
+        "Investment-grade obl": "0",
+        "High-yield Obl": "0",
+        "Emerging markets StatsObl": "0",
+        "Globale aktier": "1",
+        "Emerging markets A": "0",
+        "Private equity": "0",
+        "Infrastruktur": "0",
+        "Ejendomme": "0",
+        "Hedgefonde": "0"
+      },
+      {
+        "Alder": "21",
+        "Company": "PFA",
+        "Standard": "STANDARD",
+        "Profil Type": "Profil C",
+        "Stats- og real": "0,068",
+        "Investment-grade obl": "0,012",
+        "High-yield Obl": "0,064",
+        "Emerging markets StatsObl": "0,121",
+        "Globale aktier": "0,151",
+        "Emerging markets A": "0,15",
+        "Private equity": "0,174",
+        "Infrastruktur": "0,007",
+        "Ejendomme": "0,111",
+        "Hedgefonde": "0,141"
+      },
+      {
+        "Alder": "22",
+        "Company": "PFA",
+        "Standard": "STANDARD",
+        "Profil Type": "Profil C",
+        "Stats- og real": "0,138",
+        "Investment-grade obl": "0,101",
+        "High-yield Obl": "0,117",
+        "Emerging markets StatsObl": "0,105",
+        "Globale aktier": "0,119",
+        "Emerging markets A": "0,087",
+        "Private equity": "0,137",
+        "Infrastruktur": "0,054",
+        "Ejendomme": "0,025",
+        "Hedgefonde": "0,118"
+      },
+      {
+        "Alder": "23",
+        "Company": "PFA",
+        "Standard": "STANDARD",
+        "Profil Type": "Profil C",
+        "Stats- og real": "0,155",
+        "Investment-grade obl": "0,105",
+        "High-yield Obl": "0,184",
+        "Emerging markets StatsObl": "0,058",
+        "Globale aktier": "0,07",
+        "Emerging markets A": "0,021",
+        "Private equity": "0,051",
+        "Infrastruktur": "0,189",
+        "Ejendomme": "0,02",
+        "Hedgefonde": "0,147"
+      },
+      {
+        "Alder": "24",
+        "Company": "PFA",
+        "Standard": "STANDARD",
+        "Profil Type": "Profil C",
+        "Stats- og real": "0,164",
+        "Investment-grade obl": "0,002",
+        "High-yield Obl": "0,01",
+        "Emerging markets StatsObl": "0,014",
+        "Globale aktier": "0,21",
+        "Emerging markets A": "0,1",
+        "Private equity": "0,101",
+        "Infrastruktur": "0,201",
+        "Ejendomme": "0,132",
+        "Hedgefonde": "0,067"
+      },
+      {
+        "Alder": "25",
+        "Company": "PFA",
+        "Standard": "STANDARD",
+        "Profil Type": "Profil C",
+        "Stats- og real": "0,092",
+        "Investment-grade obl": "0,066",
+        "High-yield Obl": "0,179",
+        "Emerging markets StatsObl": "0,041",
+        "Globale aktier": "0,018",
+        "Emerging markets A": "0,097",
+        "Private equity": "0,173",
+        "Infrastruktur": "0,169",
+        "Ejendomme": "0,035",
+        "Hedgefonde": "0,13"
+      },
+      {
+        "Alder": "21",
+        "Company": "Nordea",
+        "Standard": "STANDARD",
+        "Profil Type": "Nordea Invest",
+        "Stats- og real": "0,146",
+        "Investment-grade obl": "0,103",
+        "High-yield Obl": "0,004",
+        "Emerging markets StatsObl": "0,159",
+        "Globale aktier": "0,154",
+        "Emerging markets A": "0,137",
+        "Private equity": "0,137",
+        "Infrastruktur": "0,058",
+        "Ejendomme": "0,047",
+        "Hedgefonde": "0,056"
+      },
+      {
+        "Alder": "22",
+        "Company": "Nordea",
+        "Standard": "STANDARD",
+        "Profil Type": "Nordea Invest",
+        "Stats- og real": "0,156",
+        "Investment-grade obl": "0,159",
+        "High-yield Obl": "0,045",
+        "Emerging markets StatsObl": "0,098",
+        "Globale aktier": "0,04",
+        "Emerging markets A": "0,164",
+        "Private equity": "0,005",
+        "Infrastruktur": "0,166",
+        "Ejendomme": "0,017",
+        "Hedgefonde": "0,15"
+      },
+      {
+        "Alder": "23",
+        "Company": "Nordea",
+        "Standard": "STANDARD",
+        "Profil Type": "Nordea Invest",
+        "Stats- og real": "0,171",
+        "Investment-grade obl": "0,025",
+        "High-yield Obl": "0,055",
+        "Emerging markets StatsObl": "0,196",
+        "Globale aktier": "0,02",
+        "Emerging markets A": "0,167",
+        "Private equity": "0,125",
+        "Infrastruktur": "0,08",
+        "Ejendomme": "0,156",
+        "Hedgefonde": "0,004"
+      },
+      {
+        "Alder": "24",
+        "Company": "Nordea",
+        "Standard": "STANDARD",
+        "Profil Type": "Nordea Invest",
+        "Stats- og real": "0,211",
+        "Investment-grade obl": "0,138",
+        "High-yield Obl": "0,041",
+        "Emerging markets StatsObl": "0,162",
+        "Globale aktier": "0,027",
+        "Emerging markets A": "0,076",
+        "Private equity": "0,154",
+        "Infrastruktur": "0,033",
+        "Ejendomme": "0,079",
+        "Hedgefonde": "0,078"
+      },
+      {
+        "Alder": "25",
+        "Company": "Nordea",
+        "Standard": "STANDARD",
+        "Profil Type": "Nordea Invest",
+        "Stats- og real": "0,164",
+        "Investment-grade obl": "0,092",
+        "High-yield Obl": "0,046",
+        "Emerging markets StatsObl": "0,07",
+        "Globale aktier": "0,151",
+        "Emerging markets A": "0,141",
+        "Private equity": "0,015",
+        "Infrastruktur": "0,117",
+        "Ejendomme": "0,056",
+        "Hedgefonde": "0,147"
+      },
+      {
+        "Alder": "21",
+        "Company": "danica",
+        "Standard": "",
+        "Profil Type": "Profil A",
+        "Stats- og real": "0,111",
+        "Investment-grade obl": "0,186",
+        "High-yield Obl": "0,083",
+        "Emerging markets StatsObl": "0,173",
+        "Globale aktier": "0,063",
+        "Emerging markets A": "0,001",
+        "Private equity": "0,101",
+        "Infrastruktur": "0,177",
+        "Ejendomme": "0,1",
+        "Hedgefonde": "0,006"
+      },
+      {
+        "Alder": "22",
+        "Company": "danica",
+        "Standard": "",
+        "Profil Type": "Profil A",
+        "Stats- og real": "0,066",
+        "Investment-grade obl": "0,132",
+        "High-yield Obl": "0,065",
+        "Emerging markets StatsObl": "0,041",
+        "Globale aktier": "0,159",
+        "Emerging markets A": "0,079",
+        "Private equity": "0,044",
+        "Infrastruktur": "0,134",
+        "Ejendomme": "0,168",
+        "Hedgefonde": "0,11"
+      },
+      {
+        "Alder": "23",
+        "Company": "danica",
+        "Standard": "",
+        "Profil Type": "Profil A",
+        "Stats- og real": "0,146",
+        "Investment-grade obl": "0,074",
+        "High-yield Obl": "0,043",
+        "Emerging markets StatsObl": "0,168",
+        "Globale aktier": "0,001",
+        "Emerging markets A": "0,021",
+        "Private equity": "0,042",
+        "Infrastruktur": "0,248",
+        "Ejendomme": "0,11",
+        "Hedgefonde": "0,147"
+      },
+      {
+        "Alder": "24",
+        "Company": "danica",
+        "Standard": "",
+        "Profil Type": "Profil A",
+        "Stats- og real": "0,026",
+        "Investment-grade obl": "0,148",
+        "High-yield Obl": "0,136",
+        "Emerging markets StatsObl": "0,028",
+        "Globale aktier": "0,192",
+        "Emerging markets A": "0,031",
+        "Private equity": "0,16",
+        "Infrastruktur": "0,088",
+        "Ejendomme": "0,13",
+        "Hedgefonde": "0,06"
+      },
+      {
+        "Alder": "25",
+        "Company": "danica",
+        "Standard": "",
+        "Profil Type": "Profil A",
+        "Stats- og real": "0,17",
+        "Investment-grade obl": "0,087",
+        "High-yield Obl": "0,185",
+        "Emerging markets StatsObl": "0,182",
+        "Globale aktier": "0,027",
+        "Emerging markets A": "0,125",
+        "Private equity": "0,066",
+        "Infrastruktur": "0,079",
+        "Ejendomme": "0,016",
+        "Hedgefonde": "0,064"
+      },
+      {
+        "Alder": "21",
+        "Company": "danica",
+        "Standard": "",
+        "Profil Type": "Profil B",
+        "Stats- og real": "0,135",
+        "Investment-grade obl": "0,155",
+        "High-yield Obl": "0,008",
+        "Emerging markets StatsObl": "0,129",
+        "Globale aktier": "0,009",
+        "Emerging markets A": "0,096",
+        "Private equity": "0,153",
+        "Infrastruktur": "0,053",
+        "Ejendomme": "0,142",
+        "Hedgefonde": "0,12"
+      },
+      {
+        "Alder": "22",
+        "Company": "danica",
+        "Standard": "",
+        "Profil Type": "Profil B",
+        "Stats- og real": "0,014",
+        "Investment-grade obl": "0,129",
+        "High-yield Obl": "0,026",
+        "Emerging markets StatsObl": "0,038",
+        "Globale aktier": "0,119",
+        "Emerging markets A": "0,153",
+        "Private equity": "0,275",
+        "Infrastruktur": "0,045",
+        "Ejendomme": "0,138",
+        "Hedgefonde": "0,063"
+      },
+      {
+        "Alder": "23",
+        "Company": "danica",
+        "Standard": "",
+        "Profil Type": "Profil B",
+        "Stats- og real": "0,173",
+        "Investment-grade obl": "0,091",
+        "High-yield Obl": "0,053",
+        "Emerging markets StatsObl": "0,048",
+        "Globale aktier": "0,115",
+        "Emerging markets A": "0,171",
+        "Private equity": "0,036",
+        "Infrastruktur": "0,104",
+        "Ejendomme": "0,13",
+        "Hedgefonde": "0,08"
+      },
+      {
+        "Alder": "24",
+        "Company": "danica",
+        "Standard": "",
+        "Profil Type": "Profil B",
+        "Stats- og real": "0,093",
+        "Investment-grade obl": "0,119",
+        "High-yield Obl": "0,115",
+        "Emerging markets StatsObl": "0,106",
+        "Globale aktier": "0,143",
+        "Emerging markets A": "0,08",
+        "Private equity": "0,071",
+        "Infrastruktur": "0,088",
+        "Ejendomme": "0,035",
+        "Hedgefonde": "0,15"
+      },
+      {
+        "Alder": "25",
+        "Company": "danica",
+        "Standard": "",
+        "Profil Type": "Profil B",
+        "Stats- og real": "0,007",
+        "Investment-grade obl": "0,17",
+        "High-yield Obl": "0,151",
+        "Emerging markets StatsObl": "0,031",
+        "Globale aktier": "0,043",
+        "Emerging markets A": "0,164",
+        "Private equity": "0,091",
+        "Infrastruktur": "0,119",
+        "Ejendomme": "0,033",
+        "Hedgefonde": "0,19"
+      },
+      {
+        "Alder": "21",
+        "Company": "danica",
+        "Standard": "STANDARD",
+        "Profil Type": "Profil C",
+        "Stats- og real": "0",
+        "Investment-grade obl": "0",
+        "High-yield Obl": "0",
+        "Emerging markets StatsObl": "0",
+        "Globale aktier": "0",
+        "Emerging markets A": "0,6",
+        "Private equity": "0,2",
+        "Infrastruktur": "0,2",
+        "Ejendomme": "0",
+        "Hedgefonde": "0"
+      },
+      {
+        "Alder": "22",
+        "Company": "danica",
+        "Standard": "STANDARD",
+        "Profil Type": "Profil C",
+        "Stats- og real": "0,157",
+        "Investment-grade obl": "0,11",
+        "High-yield Obl": "0,106",
+        "Emerging markets StatsObl": "0,022",
+        "Globale aktier": "0,019",
+        "Emerging markets A": "0,061",
+        "Private equity": "0,109",
+        "Infrastruktur": "0,226",
+        "Ejendomme": "0,132",
+        "Hedgefonde": "0,058"
+      },
+      {
+        "Alder": "23",
+        "Company": "danica",
+        "Standard": "STANDARD",
+        "Profil Type": "Profil C",
+        "Stats- og real": "0,175",
+        "Investment-grade obl": "0,149",
+        "High-yield Obl": "0,087",
+        "Emerging markets StatsObl": "0,125",
+        "Globale aktier": "0,059",
+        "Emerging markets A": "0,144",
+        "Private equity": "0,093",
+        "Infrastruktur": "0,042",
+        "Ejendomme": "0,084",
+        "Hedgefonde": "0,042"
+      },
+      {
+        "Alder": "24",
+        "Company": "danica",
+        "Standard": "STANDARD",
+        "Profil Type": "Profil C",
+        "Stats- og real": "0,015",
+        "Investment-grade obl": "0,046",
+        "High-yield Obl": "0,177",
+        "Emerging markets StatsObl": "0,09",
+        "Globale aktier": "0,078",
+        "Emerging markets A": "0,148",
+        "Private equity": "0,183",
+        "Infrastruktur": "0,167",
+        "Ejendomme": "0,05",
+        "Hedgefonde": "0,047"
+      },
+      {
+        "Alder": "25",
+        "Company": "danica",
+        "Standard": "STANDARD",
+        "Profil Type": "Profil C",
+        "Stats- og real": "0,104",
+        "Investment-grade obl": "0,109",
+        "High-yield Obl": "0,133",
+        "Emerging markets StatsObl": "0,003",
+        "Globale aktier": "0,094",
+        "Emerging markets A": "0,097",
+        "Private equity": "0,124",
+        "Infrastruktur": "0,131",
+        "Ejendomme": "0,072",
+        "Hedgefonde": "0,132"
+      }
+    ],
+    "risk_matrix": [
+      {
+        "id": "1",
+        "valid": "11-09-2023",
+        "name": "Std afvigelser",
+        "name2": "1-10",
+        "state_real": "0,031",
+        "invest_grade": "0,036",
+        "high_yield": "0,066",
+        "emerging_bonds": "0,069",
+        "global_stock": "0,13",
+        "emerging_markets": "0,244",
+        "private_equity": "0,241",
+        "infrastructur": "0,107",
+        "property": "0,085",
+        "other": "0,1",
+        "hedgefond": "0,067"
+      },
+      {
+        "id": "2",
+        "valid": "11-09-2023",
+        "name": "Std afvigelser",
+        "name2": ">11",
+        "state_real": "0,08",
+        "invest_grade": "",
+        "high_yield": "",
+        "emerging_bonds": "",
+        "global_stock": "0,18",
+        "emerging_markets": "",
+        "private_equity": "",
+        "infrastructur": "",
+        "property": "",
+        "other": "",
+        "hedgefond": ""
+      }
+    ],
+    "conversion_table": [
+      {
+        "id": "1",
+        "std_dev_start": "0,025",
+        "std_dev_end": "0,028",
+        "score": "1",
+        "viewall_risk_score": "1"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,028",
+        "std_dev_end": "0,032",
+        "score": "1,1",
+        "viewall_risk_score": "1"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,032",
+        "std_dev_end": "0,036",
+        "score": "1,2",
+        "viewall_risk_score": "1"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,036",
+        "std_dev_end": "0,039",
+        "score": "1,3",
+        "viewall_risk_score": "1"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,039",
+        "std_dev_end": "0,043",
+        "score": "1,4",
+        "viewall_risk_score": "1"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,043",
+        "std_dev_end": "0,043",
+        "score": "1,5",
+        "viewall_risk_score": "2"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,043",
+        "std_dev_end": "0,046",
+        "score": "1,5",
+        "viewall_risk_score": "2"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,046",
+        "std_dev_end": "0,05",
+        "score": "1,6",
+        "viewall_risk_score": "2"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,05",
+        "std_dev_end": "0,053",
+        "score": "1,7",
+        "viewall_risk_score": "2"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,053",
+        "std_dev_end": "0,057",
+        "score": "1,8",
+        "viewall_risk_score": "2"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,057",
+        "std_dev_end": "0,06",
+        "score": "1,9",
+        "viewall_risk_score": "2"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,06",
+        "std_dev_end": "0,064",
+        "score": "2",
+        "viewall_risk_score": "2"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,064",
+        "std_dev_end": "0,067",
+        "score": "2,1",
+        "viewall_risk_score": "2"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,067",
+        "std_dev_end": "0,071",
+        "score": "2,2",
+        "viewall_risk_score": "2"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,071",
+        "std_dev_end": "0,074",
+        "score": "2,3",
+        "viewall_risk_score": "2"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,074",
+        "std_dev_end": "0,078",
+        "score": "2,4",
+        "viewall_risk_score": "2"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,078",
+        "std_dev_end": "0,081",
+        "score": "2,5",
+        "viewall_risk_score": "3"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,081",
+        "std_dev_end": "0,085",
+        "score": "2,6",
+        "viewall_risk_score": "3"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,085",
+        "std_dev_end": "0,088",
+        "score": "2,7",
+        "viewall_risk_score": "3"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,088",
+        "std_dev_end": "0,092",
+        "score": "2,8",
+        "viewall_risk_score": "3"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,092",
+        "std_dev_end": "0,095",
+        "score": "2,9",
+        "viewall_risk_score": "3"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,095",
+        "std_dev_end": "0,099",
+        "score": "3",
+        "viewall_risk_score": "3"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,099",
+        "std_dev_end": "0,102",
+        "score": "3,1",
+        "viewall_risk_score": "3"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,102",
+        "std_dev_end": "0,106",
+        "score": "3,2",
+        "viewall_risk_score": "3"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,106",
+        "std_dev_end": "0,109",
+        "score": "3,3",
+        "viewall_risk_score": "3"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,109",
+        "std_dev_end": "0,113",
+        "score": "3,4",
+        "viewall_risk_score": "3"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,113",
+        "std_dev_end": "0,116",
+        "score": "3,5",
+        "viewall_risk_score": "4"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,116",
+        "std_dev_end": "0,12",
+        "score": "3,6",
+        "viewall_risk_score": "4"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,12",
+        "std_dev_end": "0,123",
+        "score": "3,7",
+        "viewall_risk_score": "4"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,123",
+        "std_dev_end": "0,127",
+        "score": "3,8",
+        "viewall_risk_score": "4"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,127",
+        "std_dev_end": "0,13",
+        "score": "3,9",
+        "viewall_risk_score": "4"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,13",
+        "std_dev_end": "0,134",
+        "score": "4",
+        "viewall_risk_score": "4"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,134",
+        "std_dev_end": "0,137",
+        "score": "4,1",
+        "viewall_risk_score": "4"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,137",
+        "std_dev_end": "0,141",
+        "score": "4,2",
+        "viewall_risk_score": "4"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,141",
+        "std_dev_end": "0,144",
+        "score": "4,3",
+        "viewall_risk_score": "4"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,144",
+        "std_dev_end": "0,148",
+        "score": "4,4",
+        "viewall_risk_score": "4"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,148",
+        "std_dev_end": "0,151",
+        "score": "4,5",
+        "viewall_risk_score": "5"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,151",
+        "std_dev_end": "0,155",
+        "score": "4,6",
+        "viewall_risk_score": "5"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,155",
+        "std_dev_end": "0,158",
+        "score": "4,7",
+        "viewall_risk_score": "5"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,158",
+        "std_dev_end": "0,162",
+        "score": "4,8",
+        "viewall_risk_score": "5"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,162",
+        "std_dev_end": "0,165",
+        "score": "4,9",
+        "viewall_risk_score": "5"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,165",
+        "std_dev_end": "0,169",
+        "score": "5",
+        "viewall_risk_score": "5"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,169",
+        "std_dev_end": "0,172",
+        "score": "5,1",
+        "viewall_risk_score": "5"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,172",
+        "std_dev_end": "0,176",
+        "score": "5,2",
+        "viewall_risk_score": "5"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,176",
+        "std_dev_end": "0,179",
+        "score": "5,3",
+        "viewall_risk_score": "5"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,179",
+        "std_dev_end": "0,183",
+        "score": "5,4",
+        "viewall_risk_score": "5"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,183",
+        "std_dev_end": "0,186",
+        "score": "5,5",
+        "viewall_risk_score": "6"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,186",
+        "std_dev_end": "0,19",
+        "score": "5,6",
+        "viewall_risk_score": "6"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,19",
+        "std_dev_end": "0,193",
+        "score": "5,7",
+        "viewall_risk_score": "6"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,193",
+        "std_dev_end": "0,197",
+        "score": "5,8",
+        "viewall_risk_score": "6"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,197",
+        "std_dev_end": "0,2",
+        "score": "5,9",
+        "viewall_risk_score": "6"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,2",
+        "std_dev_end": "0,204",
+        "score": "6",
+        "viewall_risk_score": "6"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,204",
+        "std_dev_end": "0,207",
+        "score": "6,1",
+        "viewall_risk_score": "6"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,207",
+        "std_dev_end": "0,211",
+        "score": "6,2",
+        "viewall_risk_score": "6"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,211",
+        "std_dev_end": "0,214",
+        "score": "6,3",
+        "viewall_risk_score": "6"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,214",
+        "std_dev_end": "0,218",
+        "score": "6,4",
+        "viewall_risk_score": "6"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,218",
+        "std_dev_end": "0,221",
+        "score": "6,5",
+        "viewall_risk_score": "6"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,221",
+        "std_dev_end": "0,225",
+        "score": "6,6",
+        "viewall_risk_score": "7"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,225",
+        "std_dev_end": "0,228",
+        "score": "6,7",
+        "viewall_risk_score": "7"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,228",
+        "std_dev_end": "0,232",
+        "score": "6,8",
+        "viewall_risk_score": "7"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,232",
+        "std_dev_end": "0,235",
+        "score": "6,9",
+        "viewall_risk_score": "7"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,235",
+        "std_dev_end": "0,239",
+        "score": "7",
+        "viewall_risk_score": "7"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,239",
+        "std_dev_end": "0,242",
+        "score": "7,1",
+        "viewall_risk_score": "7"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,242",
+        "std_dev_end": "0,246",
+        "score": "7,2",
+        "viewall_risk_score": "7"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,246",
+        "std_dev_end": "0,249",
+        "score": "7,3",
+        "viewall_risk_score": "7"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,249",
+        "std_dev_end": "0,253",
+        "score": "7,4",
+        "viewall_risk_score": "7"
+      },
+      {
+        "id": "1",
+        "std_dev_start": "0,253",
+        "std_dev_end": "0",
+        "score": "7,5",
+        "viewall_risk_score": "7"
+      }
+    ]
+  }
