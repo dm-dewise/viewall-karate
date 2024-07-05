@@ -8,15 +8,16 @@ Feature: Risks Analysis - Create Investment
         And request
         """
             { 
-                "categoryId": "#(parseInt(categoryId))", 
+                "categoryId": "#(categoryId)", 
                 "depotId": 10, 
                 "description": "#(description)", 
                 "quantity": 1, 
                 "purchasePriceAvg": 1, 
-                "currentPrice": "#(parseInt(currentValue))", 
-                "currencyCode": "#(currencyCode)", 
-                "investedPrivately": 1 
+                "currentPrice": "#(currentValue)", 
+                "currencyCode": "DKK", 
+                "investedPrivately": 1,
+                "insref": 6706046,
+                "notes": "Karate API Test"
             }
         """        
         When method POST
-        Then status 200

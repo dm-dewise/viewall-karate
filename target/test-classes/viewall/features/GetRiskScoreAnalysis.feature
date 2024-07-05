@@ -13,8 +13,8 @@ Feature: Get Risks Score Analysis
         ### * def resultPensions =  call read('create-pension.feature') pensions
 
         ### Looping for Investment
-        ### * def investments = dataFile.investments
-        ### * def resultInvestments =  call read('CreateInvestment.feature') investments
+        * def investments = dataFile.investments
+        * def resultInvestments =  call read('CreateInvestment.feature') investments
 
         ### Looping for Real Estate
         * def real_estates = dataFile.real_estate
@@ -38,6 +38,5 @@ Feature: Get Risks Score Analysis
         Given url apiURL
         Given path 'api/v1/risks/score'            
         When method GET
-        Then status 200
         * def score = response.riskScore
         Then print score

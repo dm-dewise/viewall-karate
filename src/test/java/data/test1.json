@@ -39,25 +39,25 @@
         "description": "Investment 1",
         "category": "Aktier",
         "categoryId": 1,
-        "currentValue": "200000"
+        "currentValue": 200000
       },
       {
         "description": "Investment 2",
         "category": "Obligationer",
         "categoryId": 2,
-        "currentValue": "300000"
+        "currentValue": 300000
       },
       {
         "description": "Investment 3",
         "category": "Puljer",
         "categoryId": 3,
-        "currentValue": "10000"
+        "currentValue": 10000
       },
       {
         "description": "Investment 4",
         "category": "Other",
         "categoryId": 4,
-        "currentValue": "200000"
+        "currentValue": 200000
       }
     ],
     "real_estate": [
@@ -86,8 +86,8 @@
     "wealth_savings": [
       {
         "description": "Savings 1",
-        "current_value": "500000",
-        "ownership_pct": "100",
+        "current_value": 500000,
+        "ownership_pct": 100,
         "include_in_pension_calc": true
       }
     ],

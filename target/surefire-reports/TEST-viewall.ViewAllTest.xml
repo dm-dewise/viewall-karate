@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="viewall.ViewAllTest" time="8.234" tests="1" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="viewall.ViewAllTest" time="23.745" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="PH"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11\bin"/>
-    <property name="sun.java.command" value="C:\Users\DEWISE SOLUTIONS\AppData\Local\Temp\surefire7544490864334101928\surefirebooter-20240704183634259_3.jar C:\Users\DEWISE SOLUTIONS\AppData\Local\Temp\surefire7544490864334101928 2024-07-04T18-36-34_094-jvmRun1 surefire-20240704183634259_1tmp surefire_0-20240704183634259_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\DEWISE SOLUTIONS\AppData\Local\Temp\surefire3815823163654522044\surefirebooter-20240705151640793_3.jar C:\Users\DEWISE SOLUTIONS\AppData\Local\Temp\surefire3815823163654522044 2024-07-05T15-16-40_613-jvmRun1 surefire-20240705151640793_1tmp surefire_0-20240705151640793_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\DEWISE SOLUTIONS\source\repos\viewall-karate\target\test-classes;C:\Users\DEWISE SOLUTIONS\source\repos\viewall-karate\target\classes;C:\Users\DEWISE SOLUTIONS\.m2\repository\com\intuit\karate\karate-junit5\1.4.1\karate-junit5-1.4.1.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\com\intuit\karate\karate-core\1.4.1\karate-core-1.4.1.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\org\graalvm\js\js-scriptengine\22.3.3\js-scriptengine-22.3.3.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\org\graalvm\sdk\graal-sdk\22.3.3\graal-sdk-22.3.3.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\org\graalvm\js\js\22.3.3\js-22.3.3.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\org\graalvm\regex\regex\22.3.3\regex-22.3.3.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\org\graalvm\truffle\truffle-api\22.3.3\truffle-api-22.3.3.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\com\ibm\icu\icu4j\71.1\icu4j-71.1.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\org\thymeleaf\thymeleaf\3.1.2.RELEASE\thymeleaf-3.1.2.RELEASE.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\ognl\ognl\3.3.4\ognl-3.3.4.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\org\javassist\javassist\3.29.0-GA\javassist-3.29.0-GA.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\org\attoparser\attoparser\2.0.7.RELEASE\attoparser-2.0.7.RELEASE.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\org\unbescape\unbescape\1.1.6.RELEASE\unbescape-1.1.6.RELEASE.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\com\linecorp\armeria\armeria\1.25.2\armeria-1.25.2.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.2\jackson-core-2.15.2.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.2\jackson-annotations-2.15.2.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.2\jackson-databind-2.15.2.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.15.2\jackson-datatype-jdk8-2.15.2.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.15.2\jackson-datatype-jsr310-2.15.2.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\io\micrometer\micrometer-core\1.11.3\micrometer-core-1.11.3.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\io\micrometer\micrometer-commons\1.11.3\micrometer-commons-1.11.3.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\io\micrometer\micrometer-observation\1.11.3\micrometer-observation-1.11.3.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\org\hdrhistogram\HdrHistogram\2.1.12\HdrHistogram-2.1.12.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\org\latencyutils\LatencyUtils\2.0.3\LatencyUtils-2.0.3.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\io\netty\netty-transport\4.1.96.Final\netty-transport-4.1.96.Final.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\io\netty\netty-common\4.1.96.Final\netty-common-4.1.96.Final.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\io\netty\netty-buffer\4.1.96.Final\netty-buffer-4.1.96.Final.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\io\netty\netty-resolver\4.1.96.Final\netty-resolver-4.1.96.Final.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\io\netty\netty-codec-haproxy\4.1.96.Final\netty-codec-haproxy-4.1.96.Final.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\io\netty\netty-codec\4.1.96.Final\netty-codec-4.1.96.Final.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\io\netty\netty-codec-http2\4.1.96.Final\netty-codec-http2-4.1.96.Final.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\io\netty\netty-handler\4.1.96.Final\netty-handler-4.1.96.Final.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\io\netty\netty-codec-http\4.1.96.Final\netty-codec-http-4.1.96.Final.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\io\netty\netty-resolver-dns\4.1.96.Final\netty-resolver-dns-4.1.96.Final.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\io\netty\netty-codec-dns\4.1.96.Final\netty-codec-dns-4.1.96.Final.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\io\netty\netty-handler-proxy\4.1.96.Final\netty-handler-proxy-4.1.96.Final.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\io\netty\netty-codec-socks\4.1.96.Final\netty-codec-socks-4.1.96.Final.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.96.Final\netty-transport-native-unix-common-4.1.96.Final-linux-x86_64.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\io\netty\netty-transport-native-epoll\4.1.96.Final\netty-transport-native-epoll-4.1.96.Final-linux-x86_64.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.96.Final\netty-transport-native-unix-common-4.1.96.Final.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.96.Final\netty-transport-classes-epoll-4.1.96.Final.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.96.Final\netty-transport-native-unix-common-4.1.96.Final-linux-aarch_64.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\io\netty\netty-transport-native-epoll\4.1.96.Final\netty-transport-native-epoll-4.1.96.Final-linux-aarch_64.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.96.Final\netty-transport-native-unix-common-4.1.96.Final-osx-x86_64.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.96.Final\netty-transport-native-kqueue-4.1.96.Final-osx-x86_64.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.96.Final\netty-transport-classes-kqueue-4.1.96.Final.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.96.Final\netty-resolver-dns-native-macos-4.1.96.Final-osx-x86_64.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\io\netty\netty-resolver-dns-classes-macos\4.1.96.Final\netty-resolver-dns-classes-macos-4.1.96.Final.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.96.Final\netty-transport-native-unix-common-4.1.96.Final-osx-aarch_64.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.96.Final\netty-transport-native-kqueue-4.1.96.Final-osx-aarch_64.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.96.Final\netty-resolver-dns-native-macos-4.1.96.Final-osx-aarch_64.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.61.Final\netty-tcnative-boringssl-static-2.0.61.Final-linux-x86_64.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\io\netty\netty-tcnative-classes\2.0.61.Final\netty-tcnative-classes-2.0.61.Final.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.61.Final\netty-tcnative-boringssl-static-2.0.61.Final-linux-aarch_64.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.61.Final\netty-tcnative-boringssl-static-2.0.61.Final-osx-x86_64.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.61.Final\netty-tcnative-boringssl-static-2.0.61.Final-osx-aarch_64.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.61.Final\netty-tcnative-boringssl-static-2.0.61.Final-windows-x86_64.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\com\aayushatharva\brotli4j\brotli4j\1.12.0\brotli4j-1.12.0.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\com\aayushatharva\brotli4j\service\1.12.0\service-1.12.0.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\com\aayushatharva\brotli4j\native-windows-x86_64\1.12.0\native-windows-x86_64-1.12.0.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\org\apache\httpcomponents\httpclient\4.5.14\httpclient-4.5.14.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\org\apache\httpcomponents\httpcore\4.4.16\httpcore-4.4.16.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\ch\qos\logback\logback-classic\1.4.11\logback-classic-1.4.11.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\ch\qos\logback\logback-core\1.4.11\logback-core-1.4.11.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\org\slf4j\jcl-over-slf4j\2.0.9\jcl-over-slf4j-2.0.9.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\org\antlr\antlr4-runtime\4.11.1\antlr4-runtime-4.11.1.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\com\jayway\jsonpath\json-path\2.8.0\json-path-2.8.0.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\net\minidev\json-smart\2.4.10\json-smart-2.4.10.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\net\minidev\accessors-smart\2.4.9\accessors-smart-2.4.9.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\org\ow2\asm\asm\9.3\asm-9.3.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\org\yaml\snakeyaml\2.0\snakeyaml-2.0.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\de\siegmar\fastcsv\2.2.1\fastcsv-2.2.1.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\info\picocli\picocli\4.7.1\picocli-4.7.1.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\io\github\classgraph\classgraph\4.8.160\classgraph-4.8.160.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\io\github\t12y\resemble\1.0.2\resemble-1.0.2.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\io\github\t12y\ssim\1.0.0\ssim-1.0.0.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.3\junit-jupiter-api-5.9.3.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\org\junit\platform\junit-platform-commons\1.9.3\junit-platform-commons-1.9.3.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.3\junit-jupiter-engine-5.9.3.jar;C:\Users\DEWISE SOLUTIONS\.m2\repository\org\junit\platform\junit-platform-engine\1.9.3\junit-platform-engine-1.9.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\DEWISE SOLUTIONS\AppData\Local\Temp\surefire7544490864334101928\surefirebooter-20240704183634259_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\DEWISE SOLUTIONS\AppData\Local\Temp\surefire3815823163654522044\surefirebooter-20240705151640793_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.23+7-LTS-222"/>
@@ -61,112 +61,12 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="testParallel" classname="viewall.ViewAllTest" time="8.231">
-    <failure message="status code was: 400, expected: 200, response time in milliseconds: 1705, url: https://api-pagsubok.viewall.dk/api/v1/investments, response: &#10;{&quot;errors&quot;:{&quot;request&quot;:[&quot;The request field is required.&quot;],&quot;categoryId&quot;:[&quot;Error converting value \&quot;#(parseInt(categoryId))\&quot; to type &apos;System.Int64&apos;. Path &apos;categoryId&apos;, line 1, position 39.&quot;],&quot;currentPrice&quot;:[&quot;Could not convert string to decimal: #(parseInt(currentValue)). Path &apos;currentPrice&apos;, line 1, position 160.&quot;]},&quot;type&quot;:&quot;https://tools.ietf.org/html/rfc7231#section-6.5.1&quot;,&quot;title&quot;:&quot;One or more validation errors occurred.&quot;,&quot;status&quot;:400,&quot;traceId&quot;:&quot;00-a1b86c76246e98f7397805e4a8bc7f25-004d273a31eb4e46-00&quot;}&#10;classpath:viewall/features/CreateInvestment.feature:22&#10;feature call loop failed at index: 0, status code was: 500, expected: 200, response time in milliseconds: 1038, url: https://api-pagsubok.viewall.dk/api/v1/investments, response: &#10;hmmm... that shouldn&apos;t have happened. Let&apos;s call my supervisor.&#10;classpath:viewall/features/CreateInvestment.feature:22&#10;feature call loop failed at index: 1, status code was: 500, expected: 200, response time in milliseconds: 934, url: https://api-pagsubok.viewall.dk/api/v1/investments, response: &#10;hmmm... that shouldn&apos;t have happened. Let&apos;s call my supervisor.&#10;classpath:viewall/features/CreateInvestment.feature:22&#10;feature call loop failed at index: 2, status code was: 500, expected: 200, response time in milliseconds: 774, url: https://api-pagsubok.viewall.dk/api/v1/investments, response: &#10;hmmm... that shouldn&apos;t have happened. Let&apos;s call my supervisor.&#10;classpath:viewall/features/CreateInvestment.feature:22&#10;feature call loop failed at index: 3, status code was: 500, expected: 200, response time in milliseconds: 796, url: https://api-pagsubok.viewall.dk/api/v1/investments, response: &#10;hmmm... that shouldn&apos;t have happened. Let&apos;s call my supervisor.&#10;classpath:viewall/features/CreateInvestment.feature:22&#10;classpath:viewall/features/GetRiskScoreAnalysis.feature:17 ==&gt; expected: &lt;0&gt; but was: &lt;2&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
-status code was: 400, expected: 200, response time in milliseconds: 1705, url: https://api-pagsubok.viewall.dk/api/v1/investments, response: 
-{"errors":{"request":["The request field is required."],"categoryId":["Error converting value \"#(parseInt(categoryId))\" to type 'System.Int64'. Path 'categoryId', line 1, position 39."],"currentPrice":["Could not convert string to decimal: #(parseInt(currentValue)). Path 'currentPrice', line 1, position 160."]},"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-a1b86c76246e98f7397805e4a8bc7f25-004d273a31eb4e46-00"}
-classpath:viewall/features/CreateInvestment.feature:22
-feature call loop failed at index: 0, status code was: 500, expected: 200, response time in milliseconds: 1038, url: https://api-pagsubok.viewall.dk/api/v1/investments, response: 
-hmmm... that shouldn't have happened. Let's call my supervisor.
-classpath:viewall/features/CreateInvestment.feature:22
-feature call loop failed at index: 1, status code was: 500, expected: 200, response time in milliseconds: 934, url: https://api-pagsubok.viewall.dk/api/v1/investments, response: 
-hmmm... that shouldn't have happened. Let's call my supervisor.
-classpath:viewall/features/CreateInvestment.feature:22
-feature call loop failed at index: 2, status code was: 500, expected: 200, response time in milliseconds: 774, url: https://api-pagsubok.viewall.dk/api/v1/investments, response: 
-hmmm... that shouldn't have happened. Let's call my supervisor.
-classpath:viewall/features/CreateInvestment.feature:22
-feature call loop failed at index: 3, status code was: 500, expected: 200, response time in milliseconds: 796, url: https://api-pagsubok.viewall.dk/api/v1/investments, response: 
-hmmm... that shouldn't have happened. Let's call my supervisor.
-classpath:viewall/features/CreateInvestment.feature:22
-classpath:viewall/features/GetRiskScoreAnalysis.feature:17 ==> expected: <0> but was: <2>
-	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
-	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
-	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
-	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
-	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:560)
-	at viewall.ViewAllTest.testParallel(ViewAllTest.java:15)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
-	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
-	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
-	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
-	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
-	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
-	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
-	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
-	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
-	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
-	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:50)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
-    <system-out><![CDATA[18:36:35.283 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
-18:36:35.289 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1720089395287
-18:36:35.295 [main] DEBUG com.intuit.karate.Suite - waiting for 5 features to complete
-18:36:36.054 [pool-2-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
-18:36:36.054 [pool-2-thread-5] INFO  com.intuit.karate - karate.env system property was: null 
-18:36:36.054 [pool-2-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
-18:36:36.054 [pool-2-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
-18:36:36.054 [pool-2-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
-18:36:36.062 [pool-2-thread-1] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/GetToken.feature
-18:36:36.424 [pool-2-thread-1] DEBUG com.intuit.karate - request:
+  <testcase name="testParallel" classname="viewall.ViewAllTest" time="23.735">
+    <system-out><![CDATA[15:16:41.822 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:16:41.828 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1720163801826
+15:16:42.401 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:16:42.407 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/GetToken.feature
+15:16:42.731 [main] DEBUG com.intuit.karate - request:
 1 > POST https://dev-iam-viewall.westeurope.cloudapp.azure.com/realms/ViewAll/protocol/openid-connect/token
 1 > Content-Type: application/x-www-form-urlencoded
 1 > Content-Length: 126
@@ -176,7 +76,7 @@ classpath:viewall/features/GetRiskScoreAnalysis.feature:17 ==> expected: <0> but
 1 > Accept-Encoding: gzip,deflate
 grant_type=password&client_id=ViewAll.WebApp&username=dbmigrino%40gmail.com&scope=email+profile+openid&password=Gr33nT34%21234
 
-18:36:37.266 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 841
+15:16:43.656 [main] DEBUG com.intuit.karate - response time in milliseconds: 922
 1 < 200
 1 < Cache-Control: no-store
 1 < Pragma: no-cache
@@ -190,16 +90,12 @@ grant_type=password&client_id=ViewAll.WebApp&username=dbmigrino%40gmail.com&scop
 1 < X-Content-Type-Options: nosniff
 1 < X-Frame-Options: SAMEORIGIN
 1 < X-XSS-Protection: 1; mode=block
-{"access_token":"eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJZVzZnZTkxakpPZnZjWm9obkJmS1FCZnlLLTFKVE9Fa2h6N2lscVk3OS0wIn0.eyJleHAiOjE3MjAxNzU3OTcsImlhdCI6MTcyMDA4OTM5NywianRpIjoiNGZjOGNmNGYtYmMwOS00MmQyLWEzMGEtNzQ2ODNkODNjODg2IiwiaXNzIjoiaHR0cHM6Ly9kZXYtaWFtLXZpZXdhbGwud2VzdGV1cm9wZS5jbG91ZGFwcC5henVyZS5jb20vcmVhbG1zL1ZpZXdBbGwiLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiMzJjYTZlYWYtOTQyZC00MDZiLWIxMTYtNTE2NTE1MTI0M2VhIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiVmlld0FsbC5XZWJBcHAiLCJzZXNzaW9uX3N0YXRlIjoiOWZkMThiN2UtYzIyOC00OTg1LWJlNzQtM2E3OGE0ZjkzYjcwIiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyJodHRwczovL3BhZ3N1Ym9rLnZpZXdhbGwuZGsiLCJodHRwczovL2xvY2FsaG9zdDozMDAwIiwiaHR0cHM6Ly9sb2NhbGhvc3Q6NzI4MS8qIiwiaHR0cDovL2xvY2FsaG9zdDozMDAwLyoiLCJodHRwczovL2Rldi1pYW0tdmlld2FsbC53ZXN0ZXVyb3BlLmNsb3VkYXBwLmF6dXJlLmNvbSIsImh0dHA6Ly9sb2NhbGhvc3Q6MzAwMS8qIiwiaHR0cDovL2xvY2FsaG9zdDozMDAxIiwiaHR0cDovL2xvY2FsaG9zdDozMDAwIiwiaHR0cHM6Ly9sb2NhbGhvc3Q6MzAwMC8qIl0sInNjb3BlIjoib3BlbmlkIGVtYWlsIHByb2ZpbGUiLCJzaWQiOiI5ZmQxOGI3ZS1jMjI4LTQ5ODUtYmU3NC0zYTc4YTRmOTNiNzAiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZG9iIjoiMTktMDQtMTk5NSIsInJvbGVzIjpbImRlZmF1bHQtcm9sZXMtdmlld2FsbCIsIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXSwibmFtZSI6IkFsYnVzIER1bWJsZWRvcmUiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJkYm1pZ3Jpbm9AZ21haWwuY29tIiwiZ2l2ZW5fbmFtZSI6IkFsYnVzIiwiZmFtaWx5X25hbWUiOiJEdW1ibGVkb3JlIiwiZW1haWwiOiJkYm1pZ3Jpbm9AZ21haWwuY29tIn0.ocTjH7IVbNAVYjP40ci7MO6brObZ71airuwE_se1-ii-zbdQoo8cgt7UsPN1fWH5MCBGDTM3QKdvyGFqNYKzGQIhkkWWWxF0Oe6ZytExpoCwZRjHY2xhV7NkHA0Ge6x2frrbSd-ef4MiMrSBcDCcG8bWLf-dhQ6d4KfhIubC_7UDx6WoXg9on_TouemnZE4Bhk53T63P7hCdsWI2mzQhvnM-uTL258g2CJSOmSYnE85BZAtVEYbWun6rK52NMZoM5_-E2r__KVD_C53tL2kSqct4KcQUDHnRgO1EW0q2fp4yKeTu0PunT501QHV4y9xlxND6mH-M7Ti18gZTeSVyzw","expires_in":86400,"refresh_expires_in":86400,"refresh_token":"eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI3OGFiMzk4NS1mNjRlLTRjZTktOGQ4MC00YTJiYTRkNGE1YWIifQ.eyJleHAiOjE3MjAxNzU3OTcsImlhdCI6MTcyMDA4OTM5NywianRpIjoiOGZkZjkzYmYtMjZkNi00OTk1LWFmNWQtY2E0N2I4Zjg5YWRjIiwiaXNzIjoiaHR0cHM6Ly9kZXYtaWFtLXZpZXdhbGwud2VzdGV1cm9wZS5jbG91ZGFwcC5henVyZS5jb20vcmVhbG1zL1ZpZXdBbGwiLCJhdWQiOiJodHRwczovL2Rldi1pYW0tdmlld2FsbC53ZXN0ZXVyb3BlLmNsb3VkYXBwLmF6dXJlLmNvbS9yZWFsbXMvVmlld0FsbCIsInN1YiI6IjMyY2E2ZWFmLTk0MmQtNDA2Yi1iMTE2LTUxNjUxNTEyNDNlYSIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJWaWV3QWxsLldlYkFwcCIsInNlc3Npb25fc3RhdGUiOiI5ZmQxOGI3ZS1jMjI4LTQ5ODUtYmU3NC0zYTc4YTRmOTNiNzAiLCJzY29wZSI6Im9wZW5pZCBlbWFpbCBwcm9maWxlIiwic2lkIjoiOWZkMThiN2UtYzIyOC00OTg1LWJlNzQtM2E3OGE0ZjkzYjcwIn0.0h1MUQ-4VKPqR7Bebrui_tiqFWtxKG32STgsRajab7E","token_type":"Bearer","id_token":"eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJZVzZnZTkxakpPZnZjWm9obkJmS1FCZnlLLTFKVE9Fa2h6N2lscVk3OS0wIn0.eyJleHAiOjE3MjAxNzU3OTcsImlhdCI6MTcyMDA4OTM5NywiYXV0aF90aW1lIjowLCJqdGkiOiI0MjI2NzIzZC03ODg5LTQxZGMtYmM5ZS0yOTM3NzNjY2NkMWMiLCJpc3MiOiJodHRwczovL2Rldi1pYW0tdmlld2FsbC53ZXN0ZXVyb3BlLmNsb3VkYXBwLmF6dXJlLmNvbS9yZWFsbXMvVmlld0FsbCIsImF1ZCI6IlZpZXdBbGwuV2ViQXBwIiwic3ViIjoiMzJjYTZlYWYtOTQyZC00MDZiLWIxMTYtNTE2NTE1MTI0M2VhIiwidHlwIjoiSUQiLCJhenAiOiJWaWV3QWxsLldlYkFwcCIsInNlc3Npb25fc3RhdGUiOiI5ZmQxOGI3ZS1jMjI4LTQ5ODUtYmU3NC0zYTc4YTRmOTNiNzAiLCJhdF9oYXNoIjoiT3JUVkJEZmIwQzNka01yR0lZbTVzUSIsImFjciI6IjEiLCJzaWQiOiI5ZmQxOGI3ZS1jMjI4LTQ5ODUtYmU3NC0zYTc4YTRmOTNiNzAiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmFtZSI6IkFsYnVzIER1bWJsZWRvcmUiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJkYm1pZ3Jpbm9AZ21haWwuY29tIiwiZ2l2ZW5fbmFtZSI6IkFsYnVzIiwiZmFtaWx5X25hbWUiOiJEdW1ibGVkb3JlIiwiZW1haWwiOiJkYm1pZ3Jpbm9AZ21haWwuY29tIn0.mPCivRrh9-L1HjAZNbe8ucrsJrmo24HCF1H9_z1Jm5-e_wCOtj8eN8yinIcx2WMyjRm6FM3rNBVqHUQrMWhvfwxhwP2bb70LE7mxpmdRX5Qwdqw5d3YioBzNpCUrSzf-R-zh9-Z-_8lydVo5dhLh9KL7zWEyiwTDKdYZuER5QL4dcHuvlFyyWrlyiGNxzAhiD3-DyL5vSNMdfS9G93C35w5ZL2Ld6OrZaTD-TwBRubI4CYNBrr9K6ANW9s0PMRXi919xIiCgpWasl8l4l6OI2slOnP0M8LlyomyXXXg0V2nGAmzFW4jwYnd9yoY0BPdw76eEAsE6Vj96GzS0xIxQhg","not-before-policy":1706094525,"session_state":"9fd18b7e-c228-4985-be74-3a78a4f93b70","scope":"openid email profile"}
+{"access_token":"eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJZVzZnZTkxakpPZnZjWm9obkJmS1FCZnlLLTFKVE9Fa2h6N2lscVk3OS0wIn0.eyJleHAiOjE3MjAyNTAyMDQsImlhdCI6MTcyMDE2MzgwNCwianRpIjoiOTc3ZWU2YzctZGRmYi00OTQ0LTgzZjQtZGJkYWNhYTQwY2E5IiwiaXNzIjoiaHR0cHM6Ly9kZXYtaWFtLXZpZXdhbGwud2VzdGV1cm9wZS5jbG91ZGFwcC5henVyZS5jb20vcmVhbG1zL1ZpZXdBbGwiLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiMzJjYTZlYWYtOTQyZC00MDZiLWIxMTYtNTE2NTE1MTI0M2VhIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiVmlld0FsbC5XZWJBcHAiLCJzZXNzaW9uX3N0YXRlIjoiYjc4YWJlMDgtYTcwZS00NDgxLTk2N2ItOTU2MDU5NjlkOTI0IiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyJodHRwczovL3BhZ3N1Ym9rLnZpZXdhbGwuZGsiLCJodHRwczovL2xvY2FsaG9zdDozMDAwIiwiaHR0cHM6Ly9sb2NhbGhvc3Q6NzI4MS8qIiwiaHR0cDovL2xvY2FsaG9zdDozMDAwLyoiLCJodHRwczovL2Rldi1pYW0tdmlld2FsbC53ZXN0ZXVyb3BlLmNsb3VkYXBwLmF6dXJlLmNvbSIsImh0dHA6Ly9sb2NhbGhvc3Q6MzAwMS8qIiwiaHR0cDovL2xvY2FsaG9zdDozMDAxIiwiaHR0cDovL2xvY2FsaG9zdDozMDAwIiwiaHR0cHM6Ly9sb2NhbGhvc3Q6MzAwMC8qIl0sInNjb3BlIjoib3BlbmlkIGVtYWlsIHByb2ZpbGUiLCJzaWQiOiJiNzhhYmUwOC1hNzBlLTQ0ODEtOTY3Yi05NTYwNTk2OWQ5MjQiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZG9iIjoiMTktMDQtMTk5NSIsInJvbGVzIjpbImRlZmF1bHQtcm9sZXMtdmlld2FsbCIsIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXSwibmFtZSI6IkFsYnVzIER1bWJsZWRvcmUiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJkYm1pZ3Jpbm9AZ21haWwuY29tIiwiZ2l2ZW5fbmFtZSI6IkFsYnVzIiwiZmFtaWx5X25hbWUiOiJEdW1ibGVkb3JlIiwiZW1haWwiOiJkYm1pZ3Jpbm9AZ21haWwuY29tIn0.cbCwXvL9P6IuudE5TGovbzB81a1DViID-BCOsBGkNxgKdvYjzY7znWPpofFgXUlPvnwaxsDwEm8idozBir1YmZ1kkmUGEvXX4daDcbghMdrfHS8LI-MQ7hlL1vuj-X3jTd7b3Rc3qAijTNmwYEbnTM7YXARkR0GLHGyKVGGqsNPTCLZFSKF79haFJ2R6cnuLTiUn8wzQz6Tj8290gJRE38bD43TsX_Nth82zFP-tgLFrQfvF8AxcEVnwXzQ6eCQqDAyef9ArdjUDJY7swAiM6cPFZFNXHxy8c8aDhybXdntvrpF6vEs57-44GeCBt2l4ih0V4zWMxR8Gp4oaj36dRg","expires_in":86400,"refresh_expires_in":86400,"refresh_token":"eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI3OGFiMzk4NS1mNjRlLTRjZTktOGQ4MC00YTJiYTRkNGE1YWIifQ.eyJleHAiOjE3MjAyNTAyMDQsImlhdCI6MTcyMDE2MzgwNCwianRpIjoiMjA4YTUwMGEtZTA1NS00YjE5LTliYjktMGIyMjFlNTY4OTJhIiwiaXNzIjoiaHR0cHM6Ly9kZXYtaWFtLXZpZXdhbGwud2VzdGV1cm9wZS5jbG91ZGFwcC5henVyZS5jb20vcmVhbG1zL1ZpZXdBbGwiLCJhdWQiOiJodHRwczovL2Rldi1pYW0tdmlld2FsbC53ZXN0ZXVyb3BlLmNsb3VkYXBwLmF6dXJlLmNvbS9yZWFsbXMvVmlld0FsbCIsInN1YiI6IjMyY2E2ZWFmLTk0MmQtNDA2Yi1iMTE2LTUxNjUxNTEyNDNlYSIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJWaWV3QWxsLldlYkFwcCIsInNlc3Npb25fc3RhdGUiOiJiNzhhYmUwOC1hNzBlLTQ0ODEtOTY3Yi05NTYwNTk2OWQ5MjQiLCJzY29wZSI6Im9wZW5pZCBlbWFpbCBwcm9maWxlIiwic2lkIjoiYjc4YWJlMDgtYTcwZS00NDgxLTk2N2ItOTU2MDU5NjlkOTI0In0.0OZ6GQL_YpLgbwFN97wqbgL8YaJGCyYIXl7DUndrhOM","token_type":"Bearer","id_token":"eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJZVzZnZTkxakpPZnZjWm9obkJmS1FCZnlLLTFKVE9Fa2h6N2lscVk3OS0wIn0.eyJleHAiOjE3MjAyNTAyMDQsImlhdCI6MTcyMDE2MzgwNCwiYXV0aF90aW1lIjowLCJqdGkiOiI0NWE3YWQ4NC0zMzY0LTRjNTctYTdiYy02YWRkN2JhNzU4MGEiLCJpc3MiOiJodHRwczovL2Rldi1pYW0tdmlld2FsbC53ZXN0ZXVyb3BlLmNsb3VkYXBwLmF6dXJlLmNvbS9yZWFsbXMvVmlld0FsbCIsImF1ZCI6IlZpZXdBbGwuV2ViQXBwIiwic3ViIjoiMzJjYTZlYWYtOTQyZC00MDZiLWIxMTYtNTE2NTE1MTI0M2VhIiwidHlwIjoiSUQiLCJhenAiOiJWaWV3QWxsLldlYkFwcCIsInNlc3Npb25fc3RhdGUiOiJiNzhhYmUwOC1hNzBlLTQ0ODEtOTY3Yi05NTYwNTk2OWQ5MjQiLCJhdF9oYXNoIjoicWtpc043MEFORFYzcElGN0dwcHhfQSIsImFjciI6IjEiLCJzaWQiOiJiNzhhYmUwOC1hNzBlLTQ0ODEtOTY3Yi05NTYwNTk2OWQ5MjQiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmFtZSI6IkFsYnVzIER1bWJsZWRvcmUiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJkYm1pZ3Jpbm9AZ21haWwuY29tIiwiZ2l2ZW5fbmFtZSI6IkFsYnVzIiwiZmFtaWx5X25hbWUiOiJEdW1ibGVkb3JlIiwiZW1haWwiOiJkYm1pZ3Jpbm9AZ21haWwuY29tIn0.k0hqYG_fsh-855SPm7Wc9bMNOq_fak0cYzR6Ef3Cl5vwdVIzA9EBa0WAvZKKIWZznllhyv6x9XyMUW5JQ0ErhNoqjUpjPDILdrLL20_YulsfX3jZciG8zdTL2vNaY4lYcW7JbQ9ECcgjTnd4P7tXCOBVAxv9GyuOMlyMJQP6qDaRGAjyqMZSts4_I2wk16QXCYqnGwwaD1det9rh6ki5k1EUZdv8i6VUspSQWe6Si6ByLGc_dlh13gD1-pkqrOuFSPd2qtAQQUPLgQOf9_TcTkicENmJkO1TH3NHJUOhKhKPwY6mouvjXIMXtXTbOaaasp47giIF6vHO_iZvAd7RYw","not-before-policy":1706094525,"session_state":"b78abe08-a70e-4481-967b-95605969d924","scope":"openid email profile"}
 
-18:36:37.273 [pool-2-thread-1] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/GetToken.feature
-18:36:37.273 [pool-2-thread-2] WARN  com.intuit.karate - this thread waited 1211 milliseconds for callSingle lock: classpath:helpers/GetToken.feature
-18:36:37.273 [pool-2-thread-4] WARN  com.intuit.karate - this thread waited 1211 milliseconds for callSingle lock: classpath:helpers/GetToken.feature
-18:36:37.273 [pool-2-thread-5] WARN  com.intuit.karate - this thread waited 1211 milliseconds for callSingle lock: classpath:helpers/GetToken.feature
-18:36:37.273 [pool-2-thread-3] WARN  com.intuit.karate - this thread waited 1211 milliseconds for callSingle lock: classpath:helpers/GetToken.feature
-18:36:37.317 [pool-2-thread-1] DEBUG com.intuit.karate - request:
+15:16:43.664 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/GetToken.feature
+15:16:43.695 [main] DEBUG com.intuit.karate - request:
 1 > POST https://api-pagsubok.viewall.dk/api/v1/business-ownerships
-1 > Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJZVzZnZTkxakpPZnZjWm9obkJmS1FCZnlLLTFKVE9Fa2h6N2lscVk3OS0wIn0.eyJleHAiOjE3MjAxNzU3OTcsImlhdCI6MTcyMDA4OTM5NywianRpIjoiNGZjOGNmNGYtYmMwOS00MmQyLWEzMGEtNzQ2ODNkODNjODg2IiwiaXNzIjoiaHR0cHM6Ly9kZXYtaWFtLXZpZXdhbGwud2VzdGV1cm9wZS5jbG91ZGFwcC5henVyZS5jb20vcmVhbG1zL1ZpZXdBbGwiLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiMzJjYTZlYWYtOTQyZC00MDZiLWIxMTYtNTE2NTE1MTI0M2VhIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiVmlld0FsbC5XZWJBcHAiLCJzZXNzaW9uX3N0YXRlIjoiOWZkMThiN2UtYzIyOC00OTg1LWJlNzQtM2E3OGE0ZjkzYjcwIiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyJodHRwczovL3BhZ3N1Ym9rLnZpZXdhbGwuZGsiLCJodHRwczovL2xvY2FsaG9zdDozMDAwIiwiaHR0cHM6Ly9sb2NhbGhvc3Q6NzI4MS8qIiwiaHR0cDovL2xvY2FsaG9zdDozMDAwLyoiLCJodHRwczovL2Rldi1pYW0tdmlld2FsbC53ZXN0ZXVyb3BlLmNsb3VkYXBwLmF6dXJlLmNvbSIsImh0dHA6Ly9sb2NhbGhvc3Q6MzAwMS8qIiwiaHR0cDovL2xvY2FsaG9zdDozMDAxIiwiaHR0cDovL2xvY2FsaG9zdDozMDAwIiwiaHR0cHM6Ly9sb2NhbGhvc3Q6MzAwMC8qIl0sInNjb3BlIjoib3BlbmlkIGVtYWlsIHByb2ZpbGUiLCJzaWQiOiI5ZmQxOGI3ZS1jMjI4LTQ5ODUtYmU3NC0zYTc4YTRmOTNiNzAiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZG9iIjoiMTktMDQtMTk5NSIsInJvbGVzIjpbImRlZmF1bHQtcm9sZXMtdmlld2FsbCIsIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXSwibmFtZSI6IkFsYnVzIER1bWJsZWRvcmUiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJkYm1pZ3Jpbm9AZ21haWwuY29tIiwiZ2l2ZW5fbmFtZSI6IkFsYnVzIiwiZmFtaWx5X25hbWUiOiJEdW1ibGVkb3JlIiwiZW1haWwiOiJkYm1pZ3Jpbm9AZ21haWwuY29tIn0.ocTjH7IVbNAVYjP40ci7MO6brObZ71airuwE_se1-ii-zbdQoo8cgt7UsPN1fWH5MCBGDTM3QKdvyGFqNYKzGQIhkkWWWxF0Oe6ZytExpoCwZRjHY2xhV7NkHA0Ge6x2frrbSd-ef4MiMrSBcDCcG8bWLf-dhQ6d4KfhIubC_7UDx6WoXg9on_TouemnZE4Bhk53T63P7hCdsWI2mzQhvnM-uTL258g2CJSOmSYnE85BZAtVEYbWun6rK52NMZoM5_-E2r__KVD_C53tL2kSqct4KcQUDHnRgO1EW0q2fp4yKeTu0PunT501QHV4y9xlxND6mH-M7Ti18gZTeSVyzw
+1 > Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJZVzZnZTkxakpPZnZjWm9obkJmS1FCZnlLLTFKVE9Fa2h6N2lscVk3OS0wIn0.eyJleHAiOjE3MjAyNTAyMDQsImlhdCI6MTcyMDE2MzgwNCwianRpIjoiOTc3ZWU2YzctZGRmYi00OTQ0LTgzZjQtZGJkYWNhYTQwY2E5IiwiaXNzIjoiaHR0cHM6Ly9kZXYtaWFtLXZpZXdhbGwud2VzdGV1cm9wZS5jbG91ZGFwcC5henVyZS5jb20vcmVhbG1zL1ZpZXdBbGwiLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiMzJjYTZlYWYtOTQyZC00MDZiLWIxMTYtNTE2NTE1MTI0M2VhIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiVmlld0FsbC5XZWJBcHAiLCJzZXNzaW9uX3N0YXRlIjoiYjc4YWJlMDgtYTcwZS00NDgxLTk2N2ItOTU2MDU5NjlkOTI0IiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyJodHRwczovL3BhZ3N1Ym9rLnZpZXdhbGwuZGsiLCJodHRwczovL2xvY2FsaG9zdDozMDAwIiwiaHR0cHM6Ly9sb2NhbGhvc3Q6NzI4MS8qIiwiaHR0cDovL2xvY2FsaG9zdDozMDAwLyoiLCJodHRwczovL2Rldi1pYW0tdmlld2FsbC53ZXN0ZXVyb3BlLmNsb3VkYXBwLmF6dXJlLmNvbSIsImh0dHA6Ly9sb2NhbGhvc3Q6MzAwMS8qIiwiaHR0cDovL2xvY2FsaG9zdDozMDAxIiwiaHR0cDovL2xvY2FsaG9zdDozMDAwIiwiaHR0cHM6Ly9sb2NhbGhvc3Q6MzAwMC8qIl0sInNjb3BlIjoib3BlbmlkIGVtYWlsIHByb2ZpbGUiLCJzaWQiOiJiNzhhYmUwOC1hNzBlLTQ0ODEtOTY3Yi05NTYwNTk2OWQ5MjQiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZG9iIjoiMTktMDQtMTk5NSIsInJvbGVzIjpbImRlZmF1bHQtcm9sZXMtdmlld2FsbCIsIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXSwibmFtZSI6IkFsYnVzIER1bWJsZWRvcmUiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJkYm1pZ3Jpbm9AZ21haWwuY29tIiwiZ2l2ZW5fbmFtZSI6IkFsYnVzIiwiZmFtaWx5X25hbWUiOiJEdW1ibGVkb3JlIiwiZW1haWwiOiJkYm1pZ3Jpbm9AZ21haWwuY29tIn0.cbCwXvL9P6IuudE5TGovbzB81a1DViID-BCOsBGkNxgKdvYjzY7znWPpofFgXUlPvnwaxsDwEm8idozBir1YmZ1kkmUGEvXX4daDcbghMdrfHS8LI-MQ7hlL1vuj-X3jTd7b3Rc3qAijTNmwYEbnTM7YXARkR0GLHGyKVGGqsNPTCLZFSKF79haFJ2R6cnuLTiUn8wzQz6Tj8290gJRE38bD43TsX_Nth82zFP-tgLFrQfvF8AxcEVnwXzQ6eCQqDAyef9ArdjUDJY7swAiM6cPFZFNXHxy8c8aDhybXdntvrpF6vEs57-44GeCBt2l4ih0V4zWMxR8Gp4oaj36dRg
 1 > Content-Type: application/json; charset=UTF-8
 1 > Content-Length: 238
 1 > Host: api-pagsubok.viewall.dk
@@ -208,31 +104,66 @@ grant_type=password&client_id=ViewAll.WebApp&username=dbmigrino%40gmail.com&scop
 1 > Accept-Encoding: gzip,deflate
 {"name":"BO Karate API Test","vatNumber":"12345678","companyValue":"#(estimated_value)","estimatedValue":"#(estimated_value)","ownershipPercentage":"#(ownership_pct)","amountSaved":"#(parseInt(estimated_value) * parseInt(ownership_pct))"}
 
-18:36:37.317 [pool-2-thread-4] DEBUG com.intuit.karate - request:
-1 > POST https://api-pagsubok.viewall.dk/api/v1/wealth-savings
-1 > Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJZVzZnZTkxakpPZnZjWm9obkJmS1FCZnlLLTFKVE9Fa2h6N2lscVk3OS0wIn0.eyJleHAiOjE3MjAxNzU3OTcsImlhdCI6MTcyMDA4OTM5NywianRpIjoiNGZjOGNmNGYtYmMwOS00MmQyLWEzMGEtNzQ2ODNkODNjODg2IiwiaXNzIjoiaHR0cHM6Ly9kZXYtaWFtLXZpZXdhbGwud2VzdGV1cm9wZS5jbG91ZGFwcC5henVyZS5jb20vcmVhbG1zL1ZpZXdBbGwiLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiMzJjYTZlYWYtOTQyZC00MDZiLWIxMTYtNTE2NTE1MTI0M2VhIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiVmlld0FsbC5XZWJBcHAiLCJzZXNzaW9uX3N0YXRlIjoiOWZkMThiN2UtYzIyOC00OTg1LWJlNzQtM2E3OGE0ZjkzYjcwIiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyJodHRwczovL3BhZ3N1Ym9rLnZpZXdhbGwuZGsiLCJodHRwczovL2xvY2FsaG9zdDozMDAwIiwiaHR0cHM6Ly9sb2NhbGhvc3Q6NzI4MS8qIiwiaHR0cDovL2xvY2FsaG9zdDozMDAwLyoiLCJodHRwczovL2Rldi1pYW0tdmlld2FsbC53ZXN0ZXVyb3BlLmNsb3VkYXBwLmF6dXJlLmNvbSIsImh0dHA6Ly9sb2NhbGhvc3Q6MzAwMS8qIiwiaHR0cDovL2xvY2FsaG9zdDozMDAxIiwiaHR0cDovL2xvY2FsaG9zdDozMDAwIiwiaHR0cHM6Ly9sb2NhbGhvc3Q6MzAwMC8qIl0sInNjb3BlIjoib3BlbmlkIGVtYWlsIHByb2ZpbGUiLCJzaWQiOiI5ZmQxOGI3ZS1jMjI4LTQ5ODUtYmU3NC0zYTc4YTRmOTNiNzAiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZG9iIjoiMTktMDQtMTk5NSIsInJvbGVzIjpbImRlZmF1bHQtcm9sZXMtdmlld2FsbCIsIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXSwibmFtZSI6IkFsYnVzIER1bWJsZWRvcmUiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJkYm1pZ3Jpbm9AZ21haWwuY29tIiwiZ2l2ZW5fbmFtZSI6IkFsYnVzIiwiZmFtaWx5X25hbWUiOiJEdW1ibGVkb3JlIiwiZW1haWwiOiJkYm1pZ3Jpbm9AZ21haWwuY29tIn0.ocTjH7IVbNAVYjP40ci7MO6brObZ71airuwE_se1-ii-zbdQoo8cgt7UsPN1fWH5MCBGDTM3QKdvyGFqNYKzGQIhkkWWWxF0Oe6ZytExpoCwZRjHY2xhV7NkHA0Ge6x2frrbSd-ef4MiMrSBcDCcG8bWLf-dhQ6d4KfhIubC_7UDx6WoXg9on_TouemnZE4Bhk53T63P7hCdsWI2mzQhvnM-uTL258g2CJSOmSYnE85BZAtVEYbWun6rK52NMZoM5_-E2r__KVD_C53tL2kSqct4KcQUDHnRgO1EW0q2fp4yKeTu0PunT501QHV4y9xlxND6mH-M7Ti18gZTeSVyzw
-1 > Content-Type: application/json; charset=UTF-8
-1 > Content-Length: 182
-1 > Host: api-pagsubok.viewall.dk
-1 > Connection: Keep-Alive
-1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.23)
-1 > Accept-Encoding: gzip,deflate
-{"description":"#(description)","currentValue":"#(current_value)","ownershipPercentage":"#(ownership_pct)","amountSaved":800,"includePensionCalculation":"#(include_in_pension_calc)"}
+15:16:44.709 [main] DEBUG com.intuit.karate - response time in milliseconds: 1013
+1 < 400
+1 < content-length: 772
+1 < content-type: application/problem+json; charset=utf-8
+1 < date: Fri, 05 Jul 2024 07:16:44 GMT
+1 < server: Kestrel
+1 < request-context: appId=cid-v1:3fd22e07-3840-4488-be75-bfd2a37f8f04
+1 < x-frame-options: SAMEORIGIN
+1 < x-content-type-options: nosniff
+1 < strict-transport-security: max-age=31536000; includeSubDomains
+1 < x-xss-protection: 1; mode=block
+1 < referrer-policy: strict-origin
+1 < permissions-policy: accelerometer=(); camera=(); geolocation=(); gyroscope=(); magnetometer=(); microphone=(); payment=(); usb=()
+1 < content-security-policy: default-src 'none';
+{"errors":{"request":["The request field is required."],"amountSaved":["Could not convert string to decimal: #(parseInt(estimated_value) * parseInt(ownership_pct)). Path 'amountSaved', line 1, position 237."],"companyValue":["Could not convert string to decimal: #(estimated_value). Path 'companyValue', line 1, position 87."],"estimatedValue":["Could not convert string to decimal: #(estimated_value). Path 'estimatedValue', line 1, position 125."],"ownershipPercentage":["Could not convert string to decimal: #(ownership_pct). Path 'ownershipPercentage', line 1, position 166."]},"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-3342a0dcb64ae2de34d368800eae49bf-760db15c12b6d33c-00"}
 
-18:36:37.317 [pool-2-thread-2] DEBUG com.intuit.karate - request:
+---------------------------------------------------------
+feature: classpath:viewall/features/CreateBusinessOwnership.feature
+scenarios:  1 | passed:  1 | failed:  0 | time: 1.0442
+---------------------------------------------------------
+
+15:16:45.121 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 5 (0 remaining) classpath:viewall/features/CreateBusinessOwnership.feature
+15:16:45.126 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:16:45.130 [main] DEBUG com.intuit.karate - request:
 1 > POST https://api-pagsubok.viewall.dk/api/v1/investments
-1 > Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJZVzZnZTkxakpPZnZjWm9obkJmS1FCZnlLLTFKVE9Fa2h6N2lscVk3OS0wIn0.eyJleHAiOjE3MjAxNzU3OTcsImlhdCI6MTcyMDA4OTM5NywianRpIjoiNGZjOGNmNGYtYmMwOS00MmQyLWEzMGEtNzQ2ODNkODNjODg2IiwiaXNzIjoiaHR0cHM6Ly9kZXYtaWFtLXZpZXdhbGwud2VzdGV1cm9wZS5jbG91ZGFwcC5henVyZS5jb20vcmVhbG1zL1ZpZXdBbGwiLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiMzJjYTZlYWYtOTQyZC00MDZiLWIxMTYtNTE2NTE1MTI0M2VhIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiVmlld0FsbC5XZWJBcHAiLCJzZXNzaW9uX3N0YXRlIjoiOWZkMThiN2UtYzIyOC00OTg1LWJlNzQtM2E3OGE0ZjkzYjcwIiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyJodHRwczovL3BhZ3N1Ym9rLnZpZXdhbGwuZGsiLCJodHRwczovL2xvY2FsaG9zdDozMDAwIiwiaHR0cHM6Ly9sb2NhbGhvc3Q6NzI4MS8qIiwiaHR0cDovL2xvY2FsaG9zdDozMDAwLyoiLCJodHRwczovL2Rldi1pYW0tdmlld2FsbC53ZXN0ZXVyb3BlLmNsb3VkYXBwLmF6dXJlLmNvbSIsImh0dHA6Ly9sb2NhbGhvc3Q6MzAwMS8qIiwiaHR0cDovL2xvY2FsaG9zdDozMDAxIiwiaHR0cDovL2xvY2FsaG9zdDozMDAwIiwiaHR0cHM6Ly9sb2NhbGhvc3Q6MzAwMC8qIl0sInNjb3BlIjoib3BlbmlkIGVtYWlsIHByb2ZpbGUiLCJzaWQiOiI5ZmQxOGI3ZS1jMjI4LTQ5ODUtYmU3NC0zYTc4YTRmOTNiNzAiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZG9iIjoiMTktMDQtMTk5NSIsInJvbGVzIjpbImRlZmF1bHQtcm9sZXMtdmlld2FsbCIsIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXSwibmFtZSI6IkFsYnVzIER1bWJsZWRvcmUiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJkYm1pZ3Jpbm9AZ21haWwuY29tIiwiZ2l2ZW5fbmFtZSI6IkFsYnVzIiwiZmFtaWx5X25hbWUiOiJEdW1ibGVkb3JlIiwiZW1haWwiOiJkYm1pZ3Jpbm9AZ21haWwuY29tIn0.ocTjH7IVbNAVYjP40ci7MO6brObZ71airuwE_se1-ii-zbdQoo8cgt7UsPN1fWH5MCBGDTM3QKdvyGFqNYKzGQIhkkWWWxF0Oe6ZytExpoCwZRjHY2xhV7NkHA0Ge6x2frrbSd-ef4MiMrSBcDCcG8bWLf-dhQ6d4KfhIubC_7UDx6WoXg9on_TouemnZE4Bhk53T63P7hCdsWI2mzQhvnM-uTL258g2CJSOmSYnE85BZAtVEYbWun6rK52NMZoM5_-E2r__KVD_C53tL2kSqct4KcQUDHnRgO1EW0q2fp4yKeTu0PunT501QHV4y9xlxND6mH-M7Ti18gZTeSVyzw
+1 > Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJZVzZnZTkxakpPZnZjWm9obkJmS1FCZnlLLTFKVE9Fa2h6N2lscVk3OS0wIn0.eyJleHAiOjE3MjAyNTAyMDQsImlhdCI6MTcyMDE2MzgwNCwianRpIjoiOTc3ZWU2YzctZGRmYi00OTQ0LTgzZjQtZGJkYWNhYTQwY2E5IiwiaXNzIjoiaHR0cHM6Ly9kZXYtaWFtLXZpZXdhbGwud2VzdGV1cm9wZS5jbG91ZGFwcC5henVyZS5jb20vcmVhbG1zL1ZpZXdBbGwiLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiMzJjYTZlYWYtOTQyZC00MDZiLWIxMTYtNTE2NTE1MTI0M2VhIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiVmlld0FsbC5XZWJBcHAiLCJzZXNzaW9uX3N0YXRlIjoiYjc4YWJlMDgtYTcwZS00NDgxLTk2N2ItOTU2MDU5NjlkOTI0IiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyJodHRwczovL3BhZ3N1Ym9rLnZpZXdhbGwuZGsiLCJodHRwczovL2xvY2FsaG9zdDozMDAwIiwiaHR0cHM6Ly9sb2NhbGhvc3Q6NzI4MS8qIiwiaHR0cDovL2xvY2FsaG9zdDozMDAwLyoiLCJodHRwczovL2Rldi1pYW0tdmlld2FsbC53ZXN0ZXVyb3BlLmNsb3VkYXBwLmF6dXJlLmNvbSIsImh0dHA6Ly9sb2NhbGhvc3Q6MzAwMS8qIiwiaHR0cDovL2xvY2FsaG9zdDozMDAxIiwiaHR0cDovL2xvY2FsaG9zdDozMDAwIiwiaHR0cHM6Ly9sb2NhbGhvc3Q6MzAwMC8qIl0sInNjb3BlIjoib3BlbmlkIGVtYWlsIHByb2ZpbGUiLCJzaWQiOiJiNzhhYmUwOC1hNzBlLTQ0ODEtOTY3Yi05NTYwNTk2OWQ5MjQiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZG9iIjoiMTktMDQtMTk5NSIsInJvbGVzIjpbImRlZmF1bHQtcm9sZXMtdmlld2FsbCIsIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXSwibmFtZSI6IkFsYnVzIER1bWJsZWRvcmUiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJkYm1pZ3Jpbm9AZ21haWwuY29tIiwiZ2l2ZW5fbmFtZSI6IkFsYnVzIiwiZmFtaWx5X25hbWUiOiJEdW1ibGVkb3JlIiwiZW1haWwiOiJkYm1pZ3Jpbm9AZ21haWwuY29tIn0.cbCwXvL9P6IuudE5TGovbzB81a1DViID-BCOsBGkNxgKdvYjzY7znWPpofFgXUlPvnwaxsDwEm8idozBir1YmZ1kkmUGEvXX4daDcbghMdrfHS8LI-MQ7hlL1vuj-X3jTd7b3Rc3qAijTNmwYEbnTM7YXARkR0GLHGyKVGGqsNPTCLZFSKF79haFJ2R6cnuLTiUn8wzQz6Tj8290gJRE38bD43TsX_Nth82zFP-tgLFrQfvF8AxcEVnwXzQ6eCQqDAyef9ArdjUDJY7swAiM6cPFZFNXHxy8c8aDhybXdntvrpF6vEs57-44GeCBt2l4ih0V4zWMxR8Gp4oaj36dRg
 1 > Content-Type: application/json; charset=UTF-8
-1 > Content-Length: 216
+1 > Content-Length: 227
 1 > Host: api-pagsubok.viewall.dk
 1 > Connection: Keep-Alive
 1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.23)
 1 > Accept-Encoding: gzip,deflate
-{"categoryId":"#(parseInt(categoryId))","depotId":10,"description":"#(description)","quantity":1,"purchasePriceAvg":1,"currentPrice":"#(parseInt(currentValue))","currencyCode":"#(currencyCode)","investedPrivately":1}
+{"categoryId":"#(categoryId)","depotId":10,"description":"#(description)","quantity":1,"purchasePriceAvg":1,"currentPrice":"#(currentValue)","currencyCode":"DKK","investedPrivately":1,"insref":6706046,"notes":"Karate API Test"}
 
-18:36:37.317 [pool-2-thread-3] DEBUG com.intuit.karate - request:
+15:16:46.118 [main] DEBUG com.intuit.karate - response time in milliseconds: 987
+1 < 400
+1 < content-length: 485
+1 < content-type: application/problem+json; charset=utf-8
+1 < date: Fri, 05 Jul 2024 07:16:46 GMT
+1 < server: Kestrel
+1 < request-context: appId=cid-v1:3fd22e07-3840-4488-be75-bfd2a37f8f04
+1 < x-frame-options: SAMEORIGIN
+1 < x-content-type-options: nosniff
+1 < strict-transport-security: max-age=31536000; includeSubDomains
+1 < x-xss-protection: 1; mode=block
+1 < referrer-policy: strict-origin
+1 < permissions-policy: accelerometer=(); camera=(); geolocation=(); gyroscope=(); magnetometer=(); microphone=(); payment=(); usb=()
+1 < content-security-policy: default-src 'none';
+{"errors":{"request":["The request field is required."],"categoryId":["Error converting value \"#(categoryId)\" to type 'System.Int64'. Path 'categoryId', line 1, position 29."],"currentPrice":["Could not convert string to decimal: #(currentValue). Path 'currentPrice', line 1, position 140."]},"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-e092d3ce449c73a5a05fd06b82f56074-277cd11d4b95e073-00"}
+
+---------------------------------------------------------
+feature: classpath:viewall/features/CreateInvestment.feature
+scenarios:  1 | passed:  1 | failed:  0 | time: 0.9928
+---------------------------------------------------------
+
+15:16:46.165 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 5 (0 remaining) classpath:viewall/features/CreateInvestment.feature
+15:16:46.169 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:16:46.173 [main] DEBUG com.intuit.karate - request:
 1 > POST https://api-pagsubok.viewall.dk/api/v1/properties
-1 > Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJZVzZnZTkxakpPZnZjWm9obkJmS1FCZnlLLTFKVE9Fa2h6N2lscVk3OS0wIn0.eyJleHAiOjE3MjAxNzU3OTcsImlhdCI6MTcyMDA4OTM5NywianRpIjoiNGZjOGNmNGYtYmMwOS00MmQyLWEzMGEtNzQ2ODNkODNjODg2IiwiaXNzIjoiaHR0cHM6Ly9kZXYtaWFtLXZpZXdhbGwud2VzdGV1cm9wZS5jbG91ZGFwcC5henVyZS5jb20vcmVhbG1zL1ZpZXdBbGwiLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiMzJjYTZlYWYtOTQyZC00MDZiLWIxMTYtNTE2NTE1MTI0M2VhIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiVmlld0FsbC5XZWJBcHAiLCJzZXNzaW9uX3N0YXRlIjoiOWZkMThiN2UtYzIyOC00OTg1LWJlNzQtM2E3OGE0ZjkzYjcwIiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyJodHRwczovL3BhZ3N1Ym9rLnZpZXdhbGwuZGsiLCJodHRwczovL2xvY2FsaG9zdDozMDAwIiwiaHR0cHM6Ly9sb2NhbGhvc3Q6NzI4MS8qIiwiaHR0cDovL2xvY2FsaG9zdDozMDAwLyoiLCJodHRwczovL2Rldi1pYW0tdmlld2FsbC53ZXN0ZXVyb3BlLmNsb3VkYXBwLmF6dXJlLmNvbSIsImh0dHA6Ly9sb2NhbGhvc3Q6MzAwMS8qIiwiaHR0cDovL2xvY2FsaG9zdDozMDAxIiwiaHR0cDovL2xvY2FsaG9zdDozMDAwIiwiaHR0cHM6Ly9sb2NhbGhvc3Q6MzAwMC8qIl0sInNjb3BlIjoib3BlbmlkIGVtYWlsIHByb2ZpbGUiLCJzaWQiOiI5ZmQxOGI3ZS1jMjI4LTQ5ODUtYmU3NC0zYTc4YTRmOTNiNzAiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZG9iIjoiMTktMDQtMTk5NSIsInJvbGVzIjpbImRlZmF1bHQtcm9sZXMtdmlld2FsbCIsIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXSwibmFtZSI6IkFsYnVzIER1bWJsZWRvcmUiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJkYm1pZ3Jpbm9AZ21haWwuY29tIiwiZ2l2ZW5fbmFtZSI6IkFsYnVzIiwiZmFtaWx5X25hbWUiOiJEdW1ibGVkb3JlIiwiZW1haWwiOiJkYm1pZ3Jpbm9AZ21haWwuY29tIn0.ocTjH7IVbNAVYjP40ci7MO6brObZ71airuwE_se1-ii-zbdQoo8cgt7UsPN1fWH5MCBGDTM3QKdvyGFqNYKzGQIhkkWWWxF0Oe6ZytExpoCwZRjHY2xhV7NkHA0Ge6x2frrbSd-ef4MiMrSBcDCcG8bWLf-dhQ6d4KfhIubC_7UDx6WoXg9on_TouemnZE4Bhk53T63P7hCdsWI2mzQhvnM-uTL258g2CJSOmSYnE85BZAtVEYbWun6rK52NMZoM5_-E2r__KVD_C53tL2kSqct4KcQUDHnRgO1EW0q2fp4yKeTu0PunT501QHV4y9xlxND6mH-M7Ti18gZTeSVyzw
+1 > Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJZVzZnZTkxakpPZnZjWm9obkJmS1FCZnlLLTFKVE9Fa2h6N2lscVk3OS0wIn0.eyJleHAiOjE3MjAyNTAyMDQsImlhdCI6MTcyMDE2MzgwNCwianRpIjoiOTc3ZWU2YzctZGRmYi00OTQ0LTgzZjQtZGJkYWNhYTQwY2E5IiwiaXNzIjoiaHR0cHM6Ly9kZXYtaWFtLXZpZXdhbGwud2VzdGV1cm9wZS5jbG91ZGFwcC5henVyZS5jb20vcmVhbG1zL1ZpZXdBbGwiLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiMzJjYTZlYWYtOTQyZC00MDZiLWIxMTYtNTE2NTE1MTI0M2VhIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiVmlld0FsbC5XZWJBcHAiLCJzZXNzaW9uX3N0YXRlIjoiYjc4YWJlMDgtYTcwZS00NDgxLTk2N2ItOTU2MDU5NjlkOTI0IiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyJodHRwczovL3BhZ3N1Ym9rLnZpZXdhbGwuZGsiLCJodHRwczovL2xvY2FsaG9zdDozMDAwIiwiaHR0cHM6Ly9sb2NhbGhvc3Q6NzI4MS8qIiwiaHR0cDovL2xvY2FsaG9zdDozMDAwLyoiLCJodHRwczovL2Rldi1pYW0tdmlld2FsbC53ZXN0ZXVyb3BlLmNsb3VkYXBwLmF6dXJlLmNvbSIsImh0dHA6Ly9sb2NhbGhvc3Q6MzAwMS8qIiwiaHR0cDovL2xvY2FsaG9zdDozMDAxIiwiaHR0cDovL2xvY2FsaG9zdDozMDAwIiwiaHR0cHM6Ly9sb2NhbGhvc3Q6MzAwMC8qIl0sInNjb3BlIjoib3BlbmlkIGVtYWlsIHByb2ZpbGUiLCJzaWQiOiJiNzhhYmUwOC1hNzBlLTQ0ODEtOTY3Yi05NTYwNTk2OWQ5MjQiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZG9iIjoiMTktMDQtMTk5NSIsInJvbGVzIjpbImRlZmF1bHQtcm9sZXMtdmlld2FsbCIsIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXSwibmFtZSI6IkFsYnVzIER1bWJsZWRvcmUiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJkYm1pZ3Jpbm9AZ21haWwuY29tIiwiZ2l2ZW5fbmFtZSI6IkFsYnVzIiwiZmFtaWx5X25hbWUiOiJEdW1ibGVkb3JlIiwiZW1haWwiOiJkYm1pZ3Jpbm9AZ21haWwuY29tIn0.cbCwXvL9P6IuudE5TGovbzB81a1DViID-BCOsBGkNxgKdvYjzY7znWPpofFgXUlPvnwaxsDwEm8idozBir1YmZ1kkmUGEvXX4daDcbghMdrfHS8LI-MQ7hlL1vuj-X3jTd7b3Rc3qAijTNmwYEbnTM7YXARkR0GLHGyKVGGqsNPTCLZFSKF79haFJ2R6cnuLTiUn8wzQz6Tj8290gJRE38bD43TsX_Nth82zFP-tgLFrQfvF8AxcEVnwXzQ6eCQqDAyef9ArdjUDJY7swAiM6cPFZFNXHxy8c8aDhybXdntvrpF6vEs57-44GeCBt2l4ih0V4zWMxR8Gp4oaj36dRg
 1 > Content-Type: application/json; charset=UTF-8
 1 > Content-Length: 211
 1 > Host: api-pagsubok.viewall.dk
@@ -241,9 +172,66 @@ grant_type=password&client_id=ViewAll.WebApp&username=dbmigrino%40gmail.com&scop
 1 > Accept-Encoding: gzip,deflate
 {"typeId":"#(property_type_id)","addressStreet":"RE Karate API Test","cityZipCode":"2000","countryCode":"DK","valueEstimated":"#(value_estimated)","ownershipPercent":"#(ownership_pct)","mortgages":[],"loans":[]}
 
-18:36:37.323 [pool-2-thread-5] DEBUG com.intuit.karate - request:
+15:16:47.024 [main] DEBUG com.intuit.karate - response time in milliseconds: 850
+1 < 400
+1 < content-length: 602
+1 < content-type: application/problem+json; charset=utf-8
+1 < date: Fri, 05 Jul 2024 07:16:46 GMT
+1 < server: Kestrel
+1 < request-context: appId=cid-v1:3fd22e07-3840-4488-be75-bfd2a37f8f04
+1 < x-frame-options: SAMEORIGIN
+1 < x-content-type-options: nosniff
+1 < strict-transport-security: max-age=31536000; includeSubDomains
+1 < x-xss-protection: 1; mode=block
+1 < referrer-policy: strict-origin
+1 < permissions-policy: accelerometer=(); camera=(); geolocation=(); gyroscope=(); magnetometer=(); microphone=(); payment=(); usb=()
+1 < content-security-policy: default-src 'none';
+{"errors":{"typeId":["Could not convert string to integer: #(property_type_id). Path 'typeId', line 1, position 31."],"request":["The request field is required."],"valueEstimated":["Could not convert string to decimal: #(value_estimated). Path 'valueEstimated', line 1, position 146."],"ownershipPercent":["Could not convert string to decimal: #(ownership_pct). Path 'ownershipPercent', line 1, position 184."]},"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-2b15450d98b44d2e0ae8681b6b371994-f5e15ce57d270aed-00"}
+
+---------------------------------------------------------
+feature: classpath:viewall/features/CreateRealEstate.feature
+scenarios:  1 | passed:  1 | failed:  0 | time: 0.8569
+---------------------------------------------------------
+
+15:16:47.059 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 3 of 5 (0 remaining) classpath:viewall/features/CreateRealEstate.feature
+15:16:47.063 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:16:47.067 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api-pagsubok.viewall.dk/api/v1/wealth-savings
+1 > Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJZVzZnZTkxakpPZnZjWm9obkJmS1FCZnlLLTFKVE9Fa2h6N2lscVk3OS0wIn0.eyJleHAiOjE3MjAyNTAyMDQsImlhdCI6MTcyMDE2MzgwNCwianRpIjoiOTc3ZWU2YzctZGRmYi00OTQ0LTgzZjQtZGJkYWNhYTQwY2E5IiwiaXNzIjoiaHR0cHM6Ly9kZXYtaWFtLXZpZXdhbGwud2VzdGV1cm9wZS5jbG91ZGFwcC5henVyZS5jb20vcmVhbG1zL1ZpZXdBbGwiLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiMzJjYTZlYWYtOTQyZC00MDZiLWIxMTYtNTE2NTE1MTI0M2VhIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiVmlld0FsbC5XZWJBcHAiLCJzZXNzaW9uX3N0YXRlIjoiYjc4YWJlMDgtYTcwZS00NDgxLTk2N2ItOTU2MDU5NjlkOTI0IiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyJodHRwczovL3BhZ3N1Ym9rLnZpZXdhbGwuZGsiLCJodHRwczovL2xvY2FsaG9zdDozMDAwIiwiaHR0cHM6Ly9sb2NhbGhvc3Q6NzI4MS8qIiwiaHR0cDovL2xvY2FsaG9zdDozMDAwLyoiLCJodHRwczovL2Rldi1pYW0tdmlld2FsbC53ZXN0ZXVyb3BlLmNsb3VkYXBwLmF6dXJlLmNvbSIsImh0dHA6Ly9sb2NhbGhvc3Q6MzAwMS8qIiwiaHR0cDovL2xvY2FsaG9zdDozMDAxIiwiaHR0cDovL2xvY2FsaG9zdDozMDAwIiwiaHR0cHM6Ly9sb2NhbGhvc3Q6MzAwMC8qIl0sInNjb3BlIjoib3BlbmlkIGVtYWlsIHByb2ZpbGUiLCJzaWQiOiJiNzhhYmUwOC1hNzBlLTQ0ODEtOTY3Yi05NTYwNTk2OWQ5MjQiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZG9iIjoiMTktMDQtMTk5NSIsInJvbGVzIjpbImRlZmF1bHQtcm9sZXMtdmlld2FsbCIsIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXSwibmFtZSI6IkFsYnVzIER1bWJsZWRvcmUiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJkYm1pZ3Jpbm9AZ21haWwuY29tIiwiZ2l2ZW5fbmFtZSI6IkFsYnVzIiwiZmFtaWx5X25hbWUiOiJEdW1ibGVkb3JlIiwiZW1haWwiOiJkYm1pZ3Jpbm9AZ21haWwuY29tIn0.cbCwXvL9P6IuudE5TGovbzB81a1DViID-BCOsBGkNxgKdvYjzY7znWPpofFgXUlPvnwaxsDwEm8idozBir1YmZ1kkmUGEvXX4daDcbghMdrfHS8LI-MQ7hlL1vuj-X3jTd7b3Rc3qAijTNmwYEbnTM7YXARkR0GLHGyKVGGqsNPTCLZFSKF79haFJ2R6cnuLTiUn8wzQz6Tj8290gJRE38bD43TsX_Nth82zFP-tgLFrQfvF8AxcEVnwXzQ6eCQqDAyef9ArdjUDJY7swAiM6cPFZFNXHxy8c8aDhybXdntvrpF6vEs57-44GeCBt2l4ih0V4zWMxR8Gp4oaj36dRg
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 182
+1 > Host: api-pagsubok.viewall.dk
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.23)
+1 > Accept-Encoding: gzip,deflate
+{"description":"#(description)","currentValue":"#(current_value)","ownershipPercentage":"#(ownership_pct)","amountSaved":800,"includePensionCalculation":"#(include_in_pension_calc)"}
+
+15:16:47.906 [main] DEBUG com.intuit.karate - response time in milliseconds: 838
+1 < 400
+1 < content-length: 647
+1 < content-type: application/problem+json; charset=utf-8
+1 < date: Fri, 05 Jul 2024 07:16:48 GMT
+1 < server: Kestrel
+1 < request-context: appId=cid-v1:3fd22e07-3840-4488-be75-bfd2a37f8f04
+1 < x-frame-options: SAMEORIGIN
+1 < x-content-type-options: nosniff
+1 < strict-transport-security: max-age=31536000; includeSubDomains
+1 < x-xss-protection: 1; mode=block
+1 < referrer-policy: strict-origin
+1 < permissions-policy: accelerometer=(); camera=(); geolocation=(); gyroscope=(); magnetometer=(); microphone=(); payment=(); usb=()
+1 < content-security-policy: default-src 'none';
+{"errors":{"request":["The request field is required."],"currentValue":["Could not convert string to decimal: #(current_value). Path 'currentValue', line 1, position 65."],"ownershipPercentage":["Could not convert string to decimal: #(ownership_pct). Path 'ownershipPercentage', line 1, position 106."],"includePensionCalculation":["Could not convert string to boolean: #(include_in_pension_calc). Path 'includePensionCalculation', line 1, position 181."]},"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-23b35ba4dd37e9df5465f8180101b397-1605fc30befa5b50-00"}
+
+---------------------------------------------------------
+feature: classpath:viewall/features/CreateWealthSavings.feature
+scenarios:  1 | passed:  1 | failed:  0 | time: 0.8432
+---------------------------------------------------------
+
+15:16:47.938 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 4 of 5 (0 remaining) classpath:viewall/features/CreateWealthSavings.feature
+15:16:47.942 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:16:47.964 [main] DEBUG com.intuit.karate - request:
 1 > POST https://api-pagsubok.viewall.dk/api/v1/business-ownerships
-1 > Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJZVzZnZTkxakpPZnZjWm9obkJmS1FCZnlLLTFKVE9Fa2h6N2lscVk3OS0wIn0.eyJleHAiOjE3MjAxNzU3OTcsImlhdCI6MTcyMDA4OTM5NywianRpIjoiNGZjOGNmNGYtYmMwOS00MmQyLWEzMGEtNzQ2ODNkODNjODg2IiwiaXNzIjoiaHR0cHM6Ly9kZXYtaWFtLXZpZXdhbGwud2VzdGV1cm9wZS5jbG91ZGFwcC5henVyZS5jb20vcmVhbG1zL1ZpZXdBbGwiLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiMzJjYTZlYWYtOTQyZC00MDZiLWIxMTYtNTE2NTE1MTI0M2VhIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiVmlld0FsbC5XZWJBcHAiLCJzZXNzaW9uX3N0YXRlIjoiOWZkMThiN2UtYzIyOC00OTg1LWJlNzQtM2E3OGE0ZjkzYjcwIiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyJodHRwczovL3BhZ3N1Ym9rLnZpZXdhbGwuZGsiLCJodHRwczovL2xvY2FsaG9zdDozMDAwIiwiaHR0cHM6Ly9sb2NhbGhvc3Q6NzI4MS8qIiwiaHR0cDovL2xvY2FsaG9zdDozMDAwLyoiLCJodHRwczovL2Rldi1pYW0tdmlld2FsbC53ZXN0ZXVyb3BlLmNsb3VkYXBwLmF6dXJlLmNvbSIsImh0dHA6Ly9sb2NhbGhvc3Q6MzAwMS8qIiwiaHR0cDovL2xvY2FsaG9zdDozMDAxIiwiaHR0cDovL2xvY2FsaG9zdDozMDAwIiwiaHR0cHM6Ly9sb2NhbGhvc3Q6MzAwMC8qIl0sInNjb3BlIjoib3BlbmlkIGVtYWlsIHByb2ZpbGUiLCJzaWQiOiI5ZmQxOGI3ZS1jMjI4LTQ5ODUtYmU3NC0zYTc4YTRmOTNiNzAiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZG9iIjoiMTktMDQtMTk5NSIsInJvbGVzIjpbImRlZmF1bHQtcm9sZXMtdmlld2FsbCIsIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXSwibmFtZSI6IkFsYnVzIER1bWJsZWRvcmUiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJkYm1pZ3Jpbm9AZ21haWwuY29tIiwiZ2l2ZW5fbmFtZSI6IkFsYnVzIiwiZmFtaWx5X25hbWUiOiJEdW1ibGVkb3JlIiwiZW1haWwiOiJkYm1pZ3Jpbm9AZ21haWwuY29tIn0.ocTjH7IVbNAVYjP40ci7MO6brObZ71airuwE_se1-ii-zbdQoo8cgt7UsPN1fWH5MCBGDTM3QKdvyGFqNYKzGQIhkkWWWxF0Oe6ZytExpoCwZRjHY2xhV7NkHA0Ge6x2frrbSd-ef4MiMrSBcDCcG8bWLf-dhQ6d4KfhIubC_7UDx6WoXg9on_TouemnZE4Bhk53T63P7hCdsWI2mzQhvnM-uTL258g2CJSOmSYnE85BZAtVEYbWun6rK52NMZoM5_-E2r__KVD_C53tL2kSqct4KcQUDHnRgO1EW0q2fp4yKeTu0PunT501QHV4y9xlxND6mH-M7Ti18gZTeSVyzw
+1 > Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJZVzZnZTkxakpPZnZjWm9obkJmS1FCZnlLLTFKVE9Fa2h6N2lscVk3OS0wIn0.eyJleHAiOjE3MjAyNTAyMDQsImlhdCI6MTcyMDE2MzgwNCwianRpIjoiOTc3ZWU2YzctZGRmYi00OTQ0LTgzZjQtZGJkYWNhYTQwY2E5IiwiaXNzIjoiaHR0cHM6Ly9kZXYtaWFtLXZpZXdhbGwud2VzdGV1cm9wZS5jbG91ZGFwcC5henVyZS5jb20vcmVhbG1zL1ZpZXdBbGwiLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiMzJjYTZlYWYtOTQyZC00MDZiLWIxMTYtNTE2NTE1MTI0M2VhIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiVmlld0FsbC5XZWJBcHAiLCJzZXNzaW9uX3N0YXRlIjoiYjc4YWJlMDgtYTcwZS00NDgxLTk2N2ItOTU2MDU5NjlkOTI0IiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyJodHRwczovL3BhZ3N1Ym9rLnZpZXdhbGwuZGsiLCJodHRwczovL2xvY2FsaG9zdDozMDAwIiwiaHR0cHM6Ly9sb2NhbGhvc3Q6NzI4MS8qIiwiaHR0cDovL2xvY2FsaG9zdDozMDAwLyoiLCJodHRwczovL2Rldi1pYW0tdmlld2FsbC53ZXN0ZXVyb3BlLmNsb3VkYXBwLmF6dXJlLmNvbSIsImh0dHA6Ly9sb2NhbGhvc3Q6MzAwMS8qIiwiaHR0cDovL2xvY2FsaG9zdDozMDAxIiwiaHR0cDovL2xvY2FsaG9zdDozMDAwIiwiaHR0cHM6Ly9sb2NhbGhvc3Q6MzAwMC8qIl0sInNjb3BlIjoib3BlbmlkIGVtYWlsIHByb2ZpbGUiLCJzaWQiOiJiNzhhYmUwOC1hNzBlLTQ0ODEtOTY3Yi05NTYwNTk2OWQ5MjQiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZG9iIjoiMTktMDQtMTk5NSIsInJvbGVzIjpbImRlZmF1bHQtcm9sZXMtdmlld2FsbCIsIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXSwibmFtZSI6IkFsYnVzIER1bWJsZWRvcmUiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJkYm1pZ3Jpbm9AZ21haWwuY29tIiwiZ2l2ZW5fbmFtZSI6IkFsYnVzIiwiZmFtaWx5X25hbWUiOiJEdW1ibGVkb3JlIiwiZW1haWwiOiJkYm1pZ3Jpbm9AZ21haWwuY29tIn0.cbCwXvL9P6IuudE5TGovbzB81a1DViID-BCOsBGkNxgKdvYjzY7znWPpofFgXUlPvnwaxsDwEm8idozBir1YmZ1kkmUGEvXX4daDcbghMdrfHS8LI-MQ7hlL1vuj-X3jTd7b3Rc3qAijTNmwYEbnTM7YXARkR0GLHGyKVGGqsNPTCLZFSKF79haFJ2R6cnuLTiUn8wzQz6Tj8290gJRE38bD43TsX_Nth82zFP-tgLFrQfvF8AxcEVnwXzQ6eCQqDAyef9ArdjUDJY7swAiM6cPFZFNXHxy8c8aDhybXdntvrpF6vEs57-44GeCBt2l4ih0V4zWMxR8Gp4oaj36dRg
 1 > Content-Type: application/json; charset=UTF-8
 1 > Content-Length: 151
 1 > Host: api-pagsubok.viewall.dk
@@ -252,80 +240,11 @@ grant_type=password&client_id=ViewAll.WebApp&username=dbmigrino%40gmail.com&scop
 1 > Accept-Encoding: gzip,deflate
 {"name":"BO Karate API Test","vatNumber":"12345678","companyValue":10000000,"estimatedValue":10000000,"ownershipPercentage":35,"amountSaved":350000000}
 
-18:36:38.815 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 1497
-1 < 400
-1 < content-length: 772
-1 < content-type: application/problem+json; charset=utf-8
-1 < date: Thu, 04 Jul 2024 10:36:39 GMT
-1 < server: Kestrel
-1 < request-context: appId=cid-v1:3fd22e07-3840-4488-be75-bfd2a37f8f04
-1 < x-frame-options: SAMEORIGIN
-1 < x-content-type-options: nosniff
-1 < strict-transport-security: max-age=31536000; includeSubDomains
-1 < x-xss-protection: 1; mode=block
-1 < referrer-policy: strict-origin
-1 < permissions-policy: accelerometer=(); camera=(); geolocation=(); gyroscope=(); magnetometer=(); microphone=(); payment=(); usb=()
-1 < content-security-policy: default-src 'none';
-{"errors":{"request":["The request field is required."],"amountSaved":["Could not convert string to decimal: #(parseInt(estimated_value) * parseInt(ownership_pct)). Path 'amountSaved', line 1, position 237."],"companyValue":["Could not convert string to decimal: #(estimated_value). Path 'companyValue', line 1, position 87."],"estimatedValue":["Could not convert string to decimal: #(estimated_value). Path 'estimatedValue', line 1, position 125."],"ownershipPercentage":["Could not convert string to decimal: #(ownership_pct). Path 'ownershipPercentage', line 1, position 166."]},"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-081c29e25b897dcb8fc90fa94ffa0c2a-a930ffbc7de05010-00"}
-
-18:36:38.978 [pool-2-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 1655
-1 < 400
-1 < content-length: 602
-1 < content-type: application/problem+json; charset=utf-8
-1 < date: Thu, 04 Jul 2024 10:36:39 GMT
-1 < server: Kestrel
-1 < request-context: appId=cid-v1:3fd22e07-3840-4488-be75-bfd2a37f8f04
-1 < x-frame-options: SAMEORIGIN
-1 < x-content-type-options: nosniff
-1 < strict-transport-security: max-age=31536000; includeSubDomains
-1 < x-xss-protection: 1; mode=block
-1 < referrer-policy: strict-origin
-1 < permissions-policy: accelerometer=(); camera=(); geolocation=(); gyroscope=(); magnetometer=(); microphone=(); payment=(); usb=()
-1 < content-security-policy: default-src 'none';
-{"errors":{"typeId":["Could not convert string to integer: #(property_type_id). Path 'typeId', line 1, position 31."],"request":["The request field is required."],"valueEstimated":["Could not convert string to decimal: #(value_estimated). Path 'valueEstimated', line 1, position 146."],"ownershipPercent":["Could not convert string to decimal: #(ownership_pct). Path 'ownershipPercent', line 1, position 184."]},"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-af1cedb6d91652a958a4ab33ea357250-6418c17d5fee5fb1-00"}
-
-18:36:38.984 [pool-2-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 1667
-1 < 400
-1 < content-length: 647
-1 < content-type: application/problem+json; charset=utf-8
-1 < date: Thu, 04 Jul 2024 10:36:39 GMT
-1 < server: Kestrel
-1 < request-context: appId=cid-v1:3fd22e07-3840-4488-be75-bfd2a37f8f04
-1 < x-frame-options: SAMEORIGIN
-1 < x-content-type-options: nosniff
-1 < strict-transport-security: max-age=31536000; includeSubDomains
-1 < x-xss-protection: 1; mode=block
-1 < referrer-policy: strict-origin
-1 < permissions-policy: accelerometer=(); camera=(); geolocation=(); gyroscope=(); magnetometer=(); microphone=(); payment=(); usb=()
-1 < content-security-policy: default-src 'none';
-{"errors":{"request":["The request field is required."],"currentValue":["Could not convert string to decimal: #(current_value). Path 'currentValue', line 1, position 65."],"ownershipPercentage":["Could not convert string to decimal: #(ownership_pct). Path 'ownershipPercentage', line 1, position 106."],"includePensionCalculation":["Could not convert string to boolean: #(include_in_pension_calc). Path 'includePensionCalculation', line 1, position 181."]},"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-749af1ed94d948c290317c4a96c49bdb-f6ac56376c7e3113-00"}
-
-18:36:39.028 [pool-2-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 1705
-1 < 400
-1 < content-length: 505
-1 < content-type: application/problem+json; charset=utf-8
-1 < date: Thu, 04 Jul 2024 10:36:39 GMT
-1 < server: Kestrel
-1 < request-context: appId=cid-v1:3fd22e07-3840-4488-be75-bfd2a37f8f04
-1 < x-frame-options: SAMEORIGIN
-1 < x-content-type-options: nosniff
-1 < strict-transport-security: max-age=31536000; includeSubDomains
-1 < x-xss-protection: 1; mode=block
-1 < referrer-policy: strict-origin
-1 < permissions-policy: accelerometer=(); camera=(); geolocation=(); gyroscope=(); magnetometer=(); microphone=(); payment=(); usb=()
-1 < content-security-policy: default-src 'none';
-{"errors":{"request":["The request field is required."],"categoryId":["Error converting value \"#(parseInt(categoryId))\" to type 'System.Int64'. Path 'categoryId', line 1, position 39."],"currentPrice":["Could not convert string to decimal: #(parseInt(currentValue)). Path 'currentPrice', line 1, position 160."]},"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-a1b86c76246e98f7397805e4a8bc7f25-004d273a31eb4e46-00"}
-
-18:36:39.043 [pool-2-thread-2] ERROR com.intuit.karate - classpath:viewall/features/CreateInvestment.feature:22
-Then status 200
-status code was: 400, expected: 200, response time in milliseconds: 1705, url: https://api-pagsubok.viewall.dk/api/v1/investments, response: 
-{"errors":{"request":["The request field is required."],"categoryId":["Error converting value \"#(parseInt(categoryId))\" to type 'System.Int64'. Path 'categoryId', line 1, position 39."],"currentPrice":["Could not convert string to decimal: #(parseInt(currentValue)). Path 'currentPrice', line 1, position 160."]},"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-a1b86c76246e98f7397805e4a8bc7f25-004d273a31eb4e46-00"}
-classpath:viewall/features/CreateInvestment.feature:22
-18:36:39.175 [pool-2-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 1852
+15:16:48.919 [main] DEBUG com.intuit.karate - response time in milliseconds: 954
 1 < 200
 1 < content-length: 241
 1 < content-type: application/json; charset=utf-8
-1 < date: Thu, 04 Jul 2024 10:36:39 GMT
+1 < date: Fri, 05 Jul 2024 07:16:48 GMT
 1 < server: Kestrel
 1 < request-context: appId=cid-v1:3fd22e07-3840-4488-be75-bfd2a37f8f04
 1 < x-frame-options: SAMEORIGIN
@@ -335,47 +254,24 @@ classpath:viewall/features/CreateInvestment.feature:22
 1 < referrer-policy: strict-origin
 1 < permissions-policy: accelerometer=(); camera=(); geolocation=(); gyroscope=(); magnetometer=(); microphone=(); payment=(); usb=()
 1 < content-security-policy: default-src 'none';
-{"id":298,"userId":1076,"name":"BO Karate API Test","vatNumber":"12345678","companyValue":10000000.0,"estimatedValue":10000000.0,"ownershipPercentage":35.0,"amountSaved":350000000.0,"lastUpdatedDate":"07/04/2024 10:36:39","countryCode":null}
+{"id":320,"userId":1076,"name":"BO Karate API Test","vatNumber":"12345678","companyValue":10000000.0,"estimatedValue":10000000.0,"ownershipPercentage":35.0,"amountSaved":350000000.0,"lastUpdatedDate":"07/05/2024 07:16:49","countryCode":null}
 
-18:36:39.185 [pool-2-thread-5] DEBUG com.intuit.karate - request:
+15:16:48.933 [main] DEBUG com.intuit.karate - request:
 1 > POST https://api-pagsubok.viewall.dk/api/v1/investments
-1 > Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJZVzZnZTkxakpPZnZjWm9obkJmS1FCZnlLLTFKVE9Fa2h6N2lscVk3OS0wIn0.eyJleHAiOjE3MjAxNzU3OTcsImlhdCI6MTcyMDA4OTM5NywianRpIjoiNGZjOGNmNGYtYmMwOS00MmQyLWEzMGEtNzQ2ODNkODNjODg2IiwiaXNzIjoiaHR0cHM6Ly9kZXYtaWFtLXZpZXdhbGwud2VzdGV1cm9wZS5jbG91ZGFwcC5henVyZS5jb20vcmVhbG1zL1ZpZXdBbGwiLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiMzJjYTZlYWYtOTQyZC00MDZiLWIxMTYtNTE2NTE1MTI0M2VhIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiVmlld0FsbC5XZWJBcHAiLCJzZXNzaW9uX3N0YXRlIjoiOWZkMThiN2UtYzIyOC00OTg1LWJlNzQtM2E3OGE0ZjkzYjcwIiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyJodHRwczovL3BhZ3N1Ym9rLnZpZXdhbGwuZGsiLCJodHRwczovL2xvY2FsaG9zdDozMDAwIiwiaHR0cHM6Ly9sb2NhbGhvc3Q6NzI4MS8qIiwiaHR0cDovL2xvY2FsaG9zdDozMDAwLyoiLCJodHRwczovL2Rldi1pYW0tdmlld2FsbC53ZXN0ZXVyb3BlLmNsb3VkYXBwLmF6dXJlLmNvbSIsImh0dHA6Ly9sb2NhbGhvc3Q6MzAwMS8qIiwiaHR0cDovL2xvY2FsaG9zdDozMDAxIiwiaHR0cDovL2xvY2FsaG9zdDozMDAwIiwiaHR0cHM6Ly9sb2NhbGhvc3Q6MzAwMC8qIl0sInNjb3BlIjoib3BlbmlkIGVtYWlsIHByb2ZpbGUiLCJzaWQiOiI5ZmQxOGI3ZS1jMjI4LTQ5ODUtYmU3NC0zYTc4YTRmOTNiNzAiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZG9iIjoiMTktMDQtMTk5NSIsInJvbGVzIjpbImRlZmF1bHQtcm9sZXMtdmlld2FsbCIsIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXSwibmFtZSI6IkFsYnVzIER1bWJsZWRvcmUiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJkYm1pZ3Jpbm9AZ21haWwuY29tIiwiZ2l2ZW5fbmFtZSI6IkFsYnVzIiwiZmFtaWx5X25hbWUiOiJEdW1ibGVkb3JlIiwiZW1haWwiOiJkYm1pZ3Jpbm9AZ21haWwuY29tIn0.ocTjH7IVbNAVYjP40ci7MO6brObZ71airuwE_se1-ii-zbdQoo8cgt7UsPN1fWH5MCBGDTM3QKdvyGFqNYKzGQIhkkWWWxF0Oe6ZytExpoCwZRjHY2xhV7NkHA0Ge6x2frrbSd-ef4MiMrSBcDCcG8bWLf-dhQ6d4KfhIubC_7UDx6WoXg9on_TouemnZE4Bhk53T63P7hCdsWI2mzQhvnM-uTL258g2CJSOmSYnE85BZAtVEYbWun6rK52NMZoM5_-E2r__KVD_C53tL2kSqct4KcQUDHnRgO1EW0q2fp4yKeTu0PunT501QHV4y9xlxND6mH-M7Ti18gZTeSVyzw
+1 > Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJZVzZnZTkxakpPZnZjWm9obkJmS1FCZnlLLTFKVE9Fa2h6N2lscVk3OS0wIn0.eyJleHAiOjE3MjAyNTAyMDQsImlhdCI6MTcyMDE2MzgwNCwianRpIjoiOTc3ZWU2YzctZGRmYi00OTQ0LTgzZjQtZGJkYWNhYTQwY2E5IiwiaXNzIjoiaHR0cHM6Ly9kZXYtaWFtLXZpZXdhbGwud2VzdGV1cm9wZS5jbG91ZGFwcC5henVyZS5jb20vcmVhbG1zL1ZpZXdBbGwiLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiMzJjYTZlYWYtOTQyZC00MDZiLWIxMTYtNTE2NTE1MTI0M2VhIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiVmlld0FsbC5XZWJBcHAiLCJzZXNzaW9uX3N0YXRlIjoiYjc4YWJlMDgtYTcwZS00NDgxLTk2N2ItOTU2MDU5NjlkOTI0IiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyJodHRwczovL3BhZ3N1Ym9rLnZpZXdhbGwuZGsiLCJodHRwczovL2xvY2FsaG9zdDozMDAwIiwiaHR0cHM6Ly9sb2NhbGhvc3Q6NzI4MS8qIiwiaHR0cDovL2xvY2FsaG9zdDozMDAwLyoiLCJodHRwczovL2Rldi1pYW0tdmlld2FsbC53ZXN0ZXVyb3BlLmNsb3VkYXBwLmF6dXJlLmNvbSIsImh0dHA6Ly9sb2NhbGhvc3Q6MzAwMS8qIiwiaHR0cDovL2xvY2FsaG9zdDozMDAxIiwiaHR0cDovL2xvY2FsaG9zdDozMDAwIiwiaHR0cHM6Ly9sb2NhbGhvc3Q6MzAwMC8qIl0sInNjb3BlIjoib3BlbmlkIGVtYWlsIHByb2ZpbGUiLCJzaWQiOiJiNzhhYmUwOC1hNzBlLTQ0ODEtOTY3Yi05NTYwNTk2OWQ5MjQiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZG9iIjoiMTktMDQtMTk5NSIsInJvbGVzIjpbImRlZmF1bHQtcm9sZXMtdmlld2FsbCIsIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXSwibmFtZSI6IkFsYnVzIER1bWJsZWRvcmUiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJkYm1pZ3Jpbm9AZ21haWwuY29tIiwiZ2l2ZW5fbmFtZSI6IkFsYnVzIiwiZmFtaWx5X25hbWUiOiJEdW1ibGVkb3JlIiwiZW1haWwiOiJkYm1pZ3Jpbm9AZ21haWwuY29tIn0.cbCwXvL9P6IuudE5TGovbzB81a1DViID-BCOsBGkNxgKdvYjzY7znWPpofFgXUlPvnwaxsDwEm8idozBir1YmZ1kkmUGEvXX4daDcbghMdrfHS8LI-MQ7hlL1vuj-X3jTd7b3Rc3qAijTNmwYEbnTM7YXARkR0GLHGyKVGGqsNPTCLZFSKF79haFJ2R6cnuLTiUn8wzQz6Tj8290gJRE38bD43TsX_Nth82zFP-tgLFrQfvF8AxcEVnwXzQ6eCQqDAyef9ArdjUDJY7swAiM6cPFZFNXHxy8c8aDhybXdntvrpF6vEs57-44GeCBt2l4ih0V4zWMxR8Gp4oaj36dRg
 1 > Content-Type: application/json; charset=UTF-8
-1 > Content-Length: 169
+1 > Content-Length: 200
 1 > Host: api-pagsubok.viewall.dk
 1 > Connection: Keep-Alive
 1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.23)
 1 > Accept-Encoding: gzip,deflate
-{"categoryId":1,"depotId":10,"description":"Investment 1","quantity":1,"purchasePriceAvg":1,"currentPrice":200000,"currencyCode":"#(currencyCode)","investedPrivately":1}
+{"categoryId":1,"depotId":10,"description":"Investment 1","quantity":1,"purchasePriceAvg":1,"currentPrice":200000,"currencyCode":"DKK","investedPrivately":1,"insref":6706046,"notes":"Karate API Test"}
 
----------------------------------------------------------
-feature: classpath:viewall/features/CreateBusinessOwnership.feature
-scenarios:  1 | passed:  1 | failed:  0 | time: 1.5336
----------------------------------------------------------
-
-18:36:39.276 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 5 (4 remaining) classpath:viewall/features/CreateBusinessOwnership.feature
----------------------------------------------------------
-feature: classpath:viewall/features/CreateInvestment.feature
-scenarios:  1 | passed:  0 | failed:  1 | time: 1.7591
----------------------------------------------------------
-
-18:36:39.306 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 2 of 5 (3 remaining) classpath:viewall/features/CreateInvestment.feature
----------------------------------------------------------
-feature: classpath:viewall/features/CreateRealEstate.feature
-scenarios:  1 | passed:  1 | failed:  0 | time: 1.6964
----------------------------------------------------------
-
-18:36:39.334 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 3 of 5 (2 remaining) classpath:viewall/features/CreateRealEstate.feature
----------------------------------------------------------
-feature: classpath:viewall/features/CreateWealthSavings.feature
-scenarios:  1 | passed:  1 | failed:  0 | time: 1.7039
----------------------------------------------------------
-
-18:36:39.365 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 4 of 5 (1 remaining) classpath:viewall/features/CreateWealthSavings.feature
-18:36:40.223 [pool-2-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 1038
-1 < 500
-1 < content-type: text/plain
-1 < date: Thu, 04 Jul 2024 10:36:40 GMT
+15:16:49.828 [main] DEBUG com.intuit.karate - response time in milliseconds: 893
+1 < 200
+1 < content-length: 345
+1 < content-type: application/json; charset=utf-8
+1 < date: Fri, 05 Jul 2024 07:16:49 GMT
 1 < server: Kestrel
 1 < request-context: appId=cid-v1:3fd22e07-3840-4488-be75-bfd2a37f8f04
 1 < x-frame-options: SAMEORIGIN
@@ -385,34 +281,24 @@ scenarios:  1 | passed:  1 | failed:  0 | time: 1.7039
 1 < referrer-policy: strict-origin
 1 < permissions-policy: accelerometer=(); camera=(); geolocation=(); gyroscope=(); magnetometer=(); microphone=(); payment=(); usb=()
 1 < content-security-policy: default-src 'none';
-1 < transfer-encoding: chunked
-hmmm... that shouldn't have happened. Let's call my supervisor.
+{"id":717,"userId":1076,"categoryId":1,"depotId":10,"description":"Investment 1","quantity":1.0,"purchasePriceAvg":1.0,"investedValue":1.0,"currentPrice":200000.0,"currentValue":200000.0,"gainLoss":19999900.0,"weight":0.0,"investedPrivately":1,"byAdvisor":false,"lastUpdatedDate":"07/05/2024 07:16:50","insref":6706046,"notes":"Karate API Test"}
 
-18:36:40.224 [pool-2-thread-5] ERROR com.intuit.karate - classpath:viewall/features/CreateInvestment.feature:22
-Then status 200
-status code was: 500, expected: 200, response time in milliseconds: 1038, url: https://api-pagsubok.viewall.dk/api/v1/investments, response: 
-hmmm... that shouldn't have happened. Let's call my supervisor.
-classpath:viewall/features/CreateInvestment.feature:22
-18:36:40.225 [pool-2-thread-5] ERROR com.intuit.karate - classpath:viewall/features/GetRiskScoreAnalysis.feature:17
-* def resultInvestments =  call read('CreateInvestment.feature') investments
-feature call loop failed at index: 0, status code was: 500, expected: 200, response time in milliseconds: 1038, url: https://api-pagsubok.viewall.dk/api/v1/investments, response: 
-hmmm... that shouldn't have happened. Let's call my supervisor.
-classpath:viewall/features/CreateInvestment.feature:22
-18:36:40.228 [pool-2-thread-5] DEBUG com.intuit.karate - request:
+15:16:49.839 [main] DEBUG com.intuit.karate - request:
 1 > POST https://api-pagsubok.viewall.dk/api/v1/investments
-1 > Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJZVzZnZTkxakpPZnZjWm9obkJmS1FCZnlLLTFKVE9Fa2h6N2lscVk3OS0wIn0.eyJleHAiOjE3MjAxNzU3OTcsImlhdCI6MTcyMDA4OTM5NywianRpIjoiNGZjOGNmNGYtYmMwOS00MmQyLWEzMGEtNzQ2ODNkODNjODg2IiwiaXNzIjoiaHR0cHM6Ly9kZXYtaWFtLXZpZXdhbGwud2VzdGV1cm9wZS5jbG91ZGFwcC5henVyZS5jb20vcmVhbG1zL1ZpZXdBbGwiLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiMzJjYTZlYWYtOTQyZC00MDZiLWIxMTYtNTE2NTE1MTI0M2VhIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiVmlld0FsbC5XZWJBcHAiLCJzZXNzaW9uX3N0YXRlIjoiOWZkMThiN2UtYzIyOC00OTg1LWJlNzQtM2E3OGE0ZjkzYjcwIiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyJodHRwczovL3BhZ3N1Ym9rLnZpZXdhbGwuZGsiLCJodHRwczovL2xvY2FsaG9zdDozMDAwIiwiaHR0cHM6Ly9sb2NhbGhvc3Q6NzI4MS8qIiwiaHR0cDovL2xvY2FsaG9zdDozMDAwLyoiLCJodHRwczovL2Rldi1pYW0tdmlld2FsbC53ZXN0ZXVyb3BlLmNsb3VkYXBwLmF6dXJlLmNvbSIsImh0dHA6Ly9sb2NhbGhvc3Q6MzAwMS8qIiwiaHR0cDovL2xvY2FsaG9zdDozMDAxIiwiaHR0cDovL2xvY2FsaG9zdDozMDAwIiwiaHR0cHM6Ly9sb2NhbGhvc3Q6MzAwMC8qIl0sInNjb3BlIjoib3BlbmlkIGVtYWlsIHByb2ZpbGUiLCJzaWQiOiI5ZmQxOGI3ZS1jMjI4LTQ5ODUtYmU3NC0zYTc4YTRmOTNiNzAiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZG9iIjoiMTktMDQtMTk5NSIsInJvbGVzIjpbImRlZmF1bHQtcm9sZXMtdmlld2FsbCIsIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXSwibmFtZSI6IkFsYnVzIER1bWJsZWRvcmUiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJkYm1pZ3Jpbm9AZ21haWwuY29tIiwiZ2l2ZW5fbmFtZSI6IkFsYnVzIiwiZmFtaWx5X25hbWUiOiJEdW1ibGVkb3JlIiwiZW1haWwiOiJkYm1pZ3Jpbm9AZ21haWwuY29tIn0.ocTjH7IVbNAVYjP40ci7MO6brObZ71airuwE_se1-ii-zbdQoo8cgt7UsPN1fWH5MCBGDTM3QKdvyGFqNYKzGQIhkkWWWxF0Oe6ZytExpoCwZRjHY2xhV7NkHA0Ge6x2frrbSd-ef4MiMrSBcDCcG8bWLf-dhQ6d4KfhIubC_7UDx6WoXg9on_TouemnZE4Bhk53T63P7hCdsWI2mzQhvnM-uTL258g2CJSOmSYnE85BZAtVEYbWun6rK52NMZoM5_-E2r__KVD_C53tL2kSqct4KcQUDHnRgO1EW0q2fp4yKeTu0PunT501QHV4y9xlxND6mH-M7Ti18gZTeSVyzw
+1 > Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJZVzZnZTkxakpPZnZjWm9obkJmS1FCZnlLLTFKVE9Fa2h6N2lscVk3OS0wIn0.eyJleHAiOjE3MjAyNTAyMDQsImlhdCI6MTcyMDE2MzgwNCwianRpIjoiOTc3ZWU2YzctZGRmYi00OTQ0LTgzZjQtZGJkYWNhYTQwY2E5IiwiaXNzIjoiaHR0cHM6Ly9kZXYtaWFtLXZpZXdhbGwud2VzdGV1cm9wZS5jbG91ZGFwcC5henVyZS5jb20vcmVhbG1zL1ZpZXdBbGwiLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiMzJjYTZlYWYtOTQyZC00MDZiLWIxMTYtNTE2NTE1MTI0M2VhIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiVmlld0FsbC5XZWJBcHAiLCJzZXNzaW9uX3N0YXRlIjoiYjc4YWJlMDgtYTcwZS00NDgxLTk2N2ItOTU2MDU5NjlkOTI0IiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyJodHRwczovL3BhZ3N1Ym9rLnZpZXdhbGwuZGsiLCJodHRwczovL2xvY2FsaG9zdDozMDAwIiwiaHR0cHM6Ly9sb2NhbGhvc3Q6NzI4MS8qIiwiaHR0cDovL2xvY2FsaG9zdDozMDAwLyoiLCJodHRwczovL2Rldi1pYW0tdmlld2FsbC53ZXN0ZXVyb3BlLmNsb3VkYXBwLmF6dXJlLmNvbSIsImh0dHA6Ly9sb2NhbGhvc3Q6MzAwMS8qIiwiaHR0cDovL2xvY2FsaG9zdDozMDAxIiwiaHR0cDovL2xvY2FsaG9zdDozMDAwIiwiaHR0cHM6Ly9sb2NhbGhvc3Q6MzAwMC8qIl0sInNjb3BlIjoib3BlbmlkIGVtYWlsIHByb2ZpbGUiLCJzaWQiOiJiNzhhYmUwOC1hNzBlLTQ0ODEtOTY3Yi05NTYwNTk2OWQ5MjQiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZG9iIjoiMTktMDQtMTk5NSIsInJvbGVzIjpbImRlZmF1bHQtcm9sZXMtdmlld2FsbCIsIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXSwibmFtZSI6IkFsYnVzIER1bWJsZWRvcmUiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJkYm1pZ3Jpbm9AZ21haWwuY29tIiwiZ2l2ZW5fbmFtZSI6IkFsYnVzIiwiZmFtaWx5X25hbWUiOiJEdW1ibGVkb3JlIiwiZW1haWwiOiJkYm1pZ3Jpbm9AZ21haWwuY29tIn0.cbCwXvL9P6IuudE5TGovbzB81a1DViID-BCOsBGkNxgKdvYjzY7znWPpofFgXUlPvnwaxsDwEm8idozBir1YmZ1kkmUGEvXX4daDcbghMdrfHS8LI-MQ7hlL1vuj-X3jTd7b3Rc3qAijTNmwYEbnTM7YXARkR0GLHGyKVGGqsNPTCLZFSKF79haFJ2R6cnuLTiUn8wzQz6Tj8290gJRE38bD43TsX_Nth82zFP-tgLFrQfvF8AxcEVnwXzQ6eCQqDAyef9ArdjUDJY7swAiM6cPFZFNXHxy8c8aDhybXdntvrpF6vEs57-44GeCBt2l4ih0V4zWMxR8Gp4oaj36dRg
 1 > Content-Type: application/json; charset=UTF-8
-1 > Content-Length: 169
+1 > Content-Length: 200
 1 > Host: api-pagsubok.viewall.dk
 1 > Connection: Keep-Alive
 1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.23)
 1 > Accept-Encoding: gzip,deflate
-{"categoryId":2,"depotId":10,"description":"Investment 2","quantity":1,"purchasePriceAvg":1,"currentPrice":300000,"currencyCode":"#(currencyCode)","investedPrivately":1}
+{"categoryId":2,"depotId":10,"description":"Investment 2","quantity":1,"purchasePriceAvg":1,"currentPrice":300000,"currencyCode":"DKK","investedPrivately":1,"insref":6706046,"notes":"Karate API Test"}
 
-18:36:41.164 [pool-2-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 934
-1 < 500
-1 < content-type: text/plain
-1 < date: Thu, 04 Jul 2024 10:36:41 GMT
+15:16:50.703 [main] DEBUG com.intuit.karate - response time in milliseconds: 864
+1 < 200
+1 < content-length: 345
+1 < content-type: application/json; charset=utf-8
+1 < date: Fri, 05 Jul 2024 07:16:50 GMT
 1 < server: Kestrel
 1 < request-context: appId=cid-v1:3fd22e07-3840-4488-be75-bfd2a37f8f04
 1 < x-frame-options: SAMEORIGIN
@@ -422,34 +308,24 @@ classpath:viewall/features/CreateInvestment.feature:22
 1 < referrer-policy: strict-origin
 1 < permissions-policy: accelerometer=(); camera=(); geolocation=(); gyroscope=(); magnetometer=(); microphone=(); payment=(); usb=()
 1 < content-security-policy: default-src 'none';
-1 < transfer-encoding: chunked
-hmmm... that shouldn't have happened. Let's call my supervisor.
+{"id":718,"userId":1076,"categoryId":2,"depotId":10,"description":"Investment 2","quantity":1.0,"purchasePriceAvg":1.0,"investedValue":1.0,"currentPrice":300000.0,"currentValue":300000.0,"gainLoss":29999900.0,"weight":0.0,"investedPrivately":1,"byAdvisor":false,"lastUpdatedDate":"07/05/2024 07:16:51","insref":6706046,"notes":"Karate API Test"}
 
-18:36:41.165 [pool-2-thread-5] ERROR com.intuit.karate - classpath:viewall/features/CreateInvestment.feature:22
-Then status 200
-status code was: 500, expected: 200, response time in milliseconds: 934, url: https://api-pagsubok.viewall.dk/api/v1/investments, response: 
-hmmm... that shouldn't have happened. Let's call my supervisor.
-classpath:viewall/features/CreateInvestment.feature:22
-18:36:41.165 [pool-2-thread-5] ERROR com.intuit.karate - classpath:viewall/features/GetRiskScoreAnalysis.feature:17
-* def resultInvestments =  call read('CreateInvestment.feature') investments
-feature call loop failed at index: 1, status code was: 500, expected: 200, response time in milliseconds: 934, url: https://api-pagsubok.viewall.dk/api/v1/investments, response: 
-hmmm... that shouldn't have happened. Let's call my supervisor.
-classpath:viewall/features/CreateInvestment.feature:22
-18:36:41.169 [pool-2-thread-5] DEBUG com.intuit.karate - request:
+15:16:50.712 [main] DEBUG com.intuit.karate - request:
 1 > POST https://api-pagsubok.viewall.dk/api/v1/investments
-1 > Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJZVzZnZTkxakpPZnZjWm9obkJmS1FCZnlLLTFKVE9Fa2h6N2lscVk3OS0wIn0.eyJleHAiOjE3MjAxNzU3OTcsImlhdCI6MTcyMDA4OTM5NywianRpIjoiNGZjOGNmNGYtYmMwOS00MmQyLWEzMGEtNzQ2ODNkODNjODg2IiwiaXNzIjoiaHR0cHM6Ly9kZXYtaWFtLXZpZXdhbGwud2VzdGV1cm9wZS5jbG91ZGFwcC5henVyZS5jb20vcmVhbG1zL1ZpZXdBbGwiLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiMzJjYTZlYWYtOTQyZC00MDZiLWIxMTYtNTE2NTE1MTI0M2VhIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiVmlld0FsbC5XZWJBcHAiLCJzZXNzaW9uX3N0YXRlIjoiOWZkMThiN2UtYzIyOC00OTg1LWJlNzQtM2E3OGE0ZjkzYjcwIiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyJodHRwczovL3BhZ3N1Ym9rLnZpZXdhbGwuZGsiLCJodHRwczovL2xvY2FsaG9zdDozMDAwIiwiaHR0cHM6Ly9sb2NhbGhvc3Q6NzI4MS8qIiwiaHR0cDovL2xvY2FsaG9zdDozMDAwLyoiLCJodHRwczovL2Rldi1pYW0tdmlld2FsbC53ZXN0ZXVyb3BlLmNsb3VkYXBwLmF6dXJlLmNvbSIsImh0dHA6Ly9sb2NhbGhvc3Q6MzAwMS8qIiwiaHR0cDovL2xvY2FsaG9zdDozMDAxIiwiaHR0cDovL2xvY2FsaG9zdDozMDAwIiwiaHR0cHM6Ly9sb2NhbGhvc3Q6MzAwMC8qIl0sInNjb3BlIjoib3BlbmlkIGVtYWlsIHByb2ZpbGUiLCJzaWQiOiI5ZmQxOGI3ZS1jMjI4LTQ5ODUtYmU3NC0zYTc4YTRmOTNiNzAiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZG9iIjoiMTktMDQtMTk5NSIsInJvbGVzIjpbImRlZmF1bHQtcm9sZXMtdmlld2FsbCIsIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXSwibmFtZSI6IkFsYnVzIER1bWJsZWRvcmUiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJkYm1pZ3Jpbm9AZ21haWwuY29tIiwiZ2l2ZW5fbmFtZSI6IkFsYnVzIiwiZmFtaWx5X25hbWUiOiJEdW1ibGVkb3JlIiwiZW1haWwiOiJkYm1pZ3Jpbm9AZ21haWwuY29tIn0.ocTjH7IVbNAVYjP40ci7MO6brObZ71airuwE_se1-ii-zbdQoo8cgt7UsPN1fWH5MCBGDTM3QKdvyGFqNYKzGQIhkkWWWxF0Oe6ZytExpoCwZRjHY2xhV7NkHA0Ge6x2frrbSd-ef4MiMrSBcDCcG8bWLf-dhQ6d4KfhIubC_7UDx6WoXg9on_TouemnZE4Bhk53T63P7hCdsWI2mzQhvnM-uTL258g2CJSOmSYnE85BZAtVEYbWun6rK52NMZoM5_-E2r__KVD_C53tL2kSqct4KcQUDHnRgO1EW0q2fp4yKeTu0PunT501QHV4y9xlxND6mH-M7Ti18gZTeSVyzw
+1 > Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJZVzZnZTkxakpPZnZjWm9obkJmS1FCZnlLLTFKVE9Fa2h6N2lscVk3OS0wIn0.eyJleHAiOjE3MjAyNTAyMDQsImlhdCI6MTcyMDE2MzgwNCwianRpIjoiOTc3ZWU2YzctZGRmYi00OTQ0LTgzZjQtZGJkYWNhYTQwY2E5IiwiaXNzIjoiaHR0cHM6Ly9kZXYtaWFtLXZpZXdhbGwud2VzdGV1cm9wZS5jbG91ZGFwcC5henVyZS5jb20vcmVhbG1zL1ZpZXdBbGwiLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiMzJjYTZlYWYtOTQyZC00MDZiLWIxMTYtNTE2NTE1MTI0M2VhIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiVmlld0FsbC5XZWJBcHAiLCJzZXNzaW9uX3N0YXRlIjoiYjc4YWJlMDgtYTcwZS00NDgxLTk2N2ItOTU2MDU5NjlkOTI0IiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyJodHRwczovL3BhZ3N1Ym9rLnZpZXdhbGwuZGsiLCJodHRwczovL2xvY2FsaG9zdDozMDAwIiwiaHR0cHM6Ly9sb2NhbGhvc3Q6NzI4MS8qIiwiaHR0cDovL2xvY2FsaG9zdDozMDAwLyoiLCJodHRwczovL2Rldi1pYW0tdmlld2FsbC53ZXN0ZXVyb3BlLmNsb3VkYXBwLmF6dXJlLmNvbSIsImh0dHA6Ly9sb2NhbGhvc3Q6MzAwMS8qIiwiaHR0cDovL2xvY2FsaG9zdDozMDAxIiwiaHR0cDovL2xvY2FsaG9zdDozMDAwIiwiaHR0cHM6Ly9sb2NhbGhvc3Q6MzAwMC8qIl0sInNjb3BlIjoib3BlbmlkIGVtYWlsIHByb2ZpbGUiLCJzaWQiOiJiNzhhYmUwOC1hNzBlLTQ0ODEtOTY3Yi05NTYwNTk2OWQ5MjQiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZG9iIjoiMTktMDQtMTk5NSIsInJvbGVzIjpbImRlZmF1bHQtcm9sZXMtdmlld2FsbCIsIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXSwibmFtZSI6IkFsYnVzIER1bWJsZWRvcmUiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJkYm1pZ3Jpbm9AZ21haWwuY29tIiwiZ2l2ZW5fbmFtZSI6IkFsYnVzIiwiZmFtaWx5X25hbWUiOiJEdW1ibGVkb3JlIiwiZW1haWwiOiJkYm1pZ3Jpbm9AZ21haWwuY29tIn0.cbCwXvL9P6IuudE5TGovbzB81a1DViID-BCOsBGkNxgKdvYjzY7znWPpofFgXUlPvnwaxsDwEm8idozBir1YmZ1kkmUGEvXX4daDcbghMdrfHS8LI-MQ7hlL1vuj-X3jTd7b3Rc3qAijTNmwYEbnTM7YXARkR0GLHGyKVGGqsNPTCLZFSKF79haFJ2R6cnuLTiUn8wzQz6Tj8290gJRE38bD43TsX_Nth82zFP-tgLFrQfvF8AxcEVnwXzQ6eCQqDAyef9ArdjUDJY7swAiM6cPFZFNXHxy8c8aDhybXdntvrpF6vEs57-44GeCBt2l4ih0V4zWMxR8Gp4oaj36dRg
 1 > Content-Type: application/json; charset=UTF-8
-1 > Content-Length: 168
+1 > Content-Length: 199
 1 > Host: api-pagsubok.viewall.dk
 1 > Connection: Keep-Alive
 1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.23)
 1 > Accept-Encoding: gzip,deflate
-{"categoryId":3,"depotId":10,"description":"Investment 3","quantity":1,"purchasePriceAvg":1,"currentPrice":10000,"currencyCode":"#(currencyCode)","investedPrivately":1}
+{"categoryId":3,"depotId":10,"description":"Investment 3","quantity":1,"purchasePriceAvg":1,"currentPrice":10000,"currencyCode":"DKK","investedPrivately":1,"insref":6706046,"notes":"Karate API Test"}
 
-18:36:41.945 [pool-2-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 774
-1 < 500
-1 < content-type: text/plain
-1 < date: Thu, 04 Jul 2024 10:36:42 GMT
+15:16:51.597 [main] DEBUG com.intuit.karate - response time in milliseconds: 884
+1 < 200
+1 < content-length: 341
+1 < content-type: application/json; charset=utf-8
+1 < date: Fri, 05 Jul 2024 07:16:51 GMT
 1 < server: Kestrel
 1 < request-context: appId=cid-v1:3fd22e07-3840-4488-be75-bfd2a37f8f04
 1 < x-frame-options: SAMEORIGIN
@@ -459,34 +335,24 @@ classpath:viewall/features/CreateInvestment.feature:22
 1 < referrer-policy: strict-origin
 1 < permissions-policy: accelerometer=(); camera=(); geolocation=(); gyroscope=(); magnetometer=(); microphone=(); payment=(); usb=()
 1 < content-security-policy: default-src 'none';
-1 < transfer-encoding: chunked
-hmmm... that shouldn't have happened. Let's call my supervisor.
+{"id":719,"userId":1076,"categoryId":3,"depotId":10,"description":"Investment 3","quantity":1.0,"purchasePriceAvg":1.0,"investedValue":1.0,"currentPrice":10000.0,"currentValue":10000.0,"gainLoss":999900.0,"weight":0.0,"investedPrivately":1,"byAdvisor":false,"lastUpdatedDate":"07/05/2024 07:16:51","insref":6706046,"notes":"Karate API Test"}
 
-18:36:41.946 [pool-2-thread-5] ERROR com.intuit.karate - classpath:viewall/features/CreateInvestment.feature:22
-Then status 200
-status code was: 500, expected: 200, response time in milliseconds: 774, url: https://api-pagsubok.viewall.dk/api/v1/investments, response: 
-hmmm... that shouldn't have happened. Let's call my supervisor.
-classpath:viewall/features/CreateInvestment.feature:22
-18:36:41.947 [pool-2-thread-5] ERROR com.intuit.karate - classpath:viewall/features/GetRiskScoreAnalysis.feature:17
-* def resultInvestments =  call read('CreateInvestment.feature') investments
-feature call loop failed at index: 2, status code was: 500, expected: 200, response time in milliseconds: 774, url: https://api-pagsubok.viewall.dk/api/v1/investments, response: 
-hmmm... that shouldn't have happened. Let's call my supervisor.
-classpath:viewall/features/CreateInvestment.feature:22
-18:36:41.954 [pool-2-thread-5] DEBUG com.intuit.karate - request:
+15:16:51.602 [main] DEBUG com.intuit.karate - request:
 1 > POST https://api-pagsubok.viewall.dk/api/v1/investments
-1 > Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJZVzZnZTkxakpPZnZjWm9obkJmS1FCZnlLLTFKVE9Fa2h6N2lscVk3OS0wIn0.eyJleHAiOjE3MjAxNzU3OTcsImlhdCI6MTcyMDA4OTM5NywianRpIjoiNGZjOGNmNGYtYmMwOS00MmQyLWEzMGEtNzQ2ODNkODNjODg2IiwiaXNzIjoiaHR0cHM6Ly9kZXYtaWFtLXZpZXdhbGwud2VzdGV1cm9wZS5jbG91ZGFwcC5henVyZS5jb20vcmVhbG1zL1ZpZXdBbGwiLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiMzJjYTZlYWYtOTQyZC00MDZiLWIxMTYtNTE2NTE1MTI0M2VhIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiVmlld0FsbC5XZWJBcHAiLCJzZXNzaW9uX3N0YXRlIjoiOWZkMThiN2UtYzIyOC00OTg1LWJlNzQtM2E3OGE0ZjkzYjcwIiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyJodHRwczovL3BhZ3N1Ym9rLnZpZXdhbGwuZGsiLCJodHRwczovL2xvY2FsaG9zdDozMDAwIiwiaHR0cHM6Ly9sb2NhbGhvc3Q6NzI4MS8qIiwiaHR0cDovL2xvY2FsaG9zdDozMDAwLyoiLCJodHRwczovL2Rldi1pYW0tdmlld2FsbC53ZXN0ZXVyb3BlLmNsb3VkYXBwLmF6dXJlLmNvbSIsImh0dHA6Ly9sb2NhbGhvc3Q6MzAwMS8qIiwiaHR0cDovL2xvY2FsaG9zdDozMDAxIiwiaHR0cDovL2xvY2FsaG9zdDozMDAwIiwiaHR0cHM6Ly9sb2NhbGhvc3Q6MzAwMC8qIl0sInNjb3BlIjoib3BlbmlkIGVtYWlsIHByb2ZpbGUiLCJzaWQiOiI5ZmQxOGI3ZS1jMjI4LTQ5ODUtYmU3NC0zYTc4YTRmOTNiNzAiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZG9iIjoiMTktMDQtMTk5NSIsInJvbGVzIjpbImRlZmF1bHQtcm9sZXMtdmlld2FsbCIsIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXSwibmFtZSI6IkFsYnVzIER1bWJsZWRvcmUiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJkYm1pZ3Jpbm9AZ21haWwuY29tIiwiZ2l2ZW5fbmFtZSI6IkFsYnVzIiwiZmFtaWx5X25hbWUiOiJEdW1ibGVkb3JlIiwiZW1haWwiOiJkYm1pZ3Jpbm9AZ21haWwuY29tIn0.ocTjH7IVbNAVYjP40ci7MO6brObZ71airuwE_se1-ii-zbdQoo8cgt7UsPN1fWH5MCBGDTM3QKdvyGFqNYKzGQIhkkWWWxF0Oe6ZytExpoCwZRjHY2xhV7NkHA0Ge6x2frrbSd-ef4MiMrSBcDCcG8bWLf-dhQ6d4KfhIubC_7UDx6WoXg9on_TouemnZE4Bhk53T63P7hCdsWI2mzQhvnM-uTL258g2CJSOmSYnE85BZAtVEYbWun6rK52NMZoM5_-E2r__KVD_C53tL2kSqct4KcQUDHnRgO1EW0q2fp4yKeTu0PunT501QHV4y9xlxND6mH-M7Ti18gZTeSVyzw
+1 > Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJZVzZnZTkxakpPZnZjWm9obkJmS1FCZnlLLTFKVE9Fa2h6N2lscVk3OS0wIn0.eyJleHAiOjE3MjAyNTAyMDQsImlhdCI6MTcyMDE2MzgwNCwianRpIjoiOTc3ZWU2YzctZGRmYi00OTQ0LTgzZjQtZGJkYWNhYTQwY2E5IiwiaXNzIjoiaHR0cHM6Ly9kZXYtaWFtLXZpZXdhbGwud2VzdGV1cm9wZS5jbG91ZGFwcC5henVyZS5jb20vcmVhbG1zL1ZpZXdBbGwiLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiMzJjYTZlYWYtOTQyZC00MDZiLWIxMTYtNTE2NTE1MTI0M2VhIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiVmlld0FsbC5XZWJBcHAiLCJzZXNzaW9uX3N0YXRlIjoiYjc4YWJlMDgtYTcwZS00NDgxLTk2N2ItOTU2MDU5NjlkOTI0IiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyJodHRwczovL3BhZ3N1Ym9rLnZpZXdhbGwuZGsiLCJodHRwczovL2xvY2FsaG9zdDozMDAwIiwiaHR0cHM6Ly9sb2NhbGhvc3Q6NzI4MS8qIiwiaHR0cDovL2xvY2FsaG9zdDozMDAwLyoiLCJodHRwczovL2Rldi1pYW0tdmlld2FsbC53ZXN0ZXVyb3BlLmNsb3VkYXBwLmF6dXJlLmNvbSIsImh0dHA6Ly9sb2NhbGhvc3Q6MzAwMS8qIiwiaHR0cDovL2xvY2FsaG9zdDozMDAxIiwiaHR0cDovL2xvY2FsaG9zdDozMDAwIiwiaHR0cHM6Ly9sb2NhbGhvc3Q6MzAwMC8qIl0sInNjb3BlIjoib3BlbmlkIGVtYWlsIHByb2ZpbGUiLCJzaWQiOiJiNzhhYmUwOC1hNzBlLTQ0ODEtOTY3Yi05NTYwNTk2OWQ5MjQiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZG9iIjoiMTktMDQtMTk5NSIsInJvbGVzIjpbImRlZmF1bHQtcm9sZXMtdmlld2FsbCIsIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXSwibmFtZSI6IkFsYnVzIER1bWJsZWRvcmUiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJkYm1pZ3Jpbm9AZ21haWwuY29tIiwiZ2l2ZW5fbmFtZSI6IkFsYnVzIiwiZmFtaWx5X25hbWUiOiJEdW1ibGVkb3JlIiwiZW1haWwiOiJkYm1pZ3Jpbm9AZ21haWwuY29tIn0.cbCwXvL9P6IuudE5TGovbzB81a1DViID-BCOsBGkNxgKdvYjzY7znWPpofFgXUlPvnwaxsDwEm8idozBir1YmZ1kkmUGEvXX4daDcbghMdrfHS8LI-MQ7hlL1vuj-X3jTd7b3Rc3qAijTNmwYEbnTM7YXARkR0GLHGyKVGGqsNPTCLZFSKF79haFJ2R6cnuLTiUn8wzQz6Tj8290gJRE38bD43TsX_Nth82zFP-tgLFrQfvF8AxcEVnwXzQ6eCQqDAyef9ArdjUDJY7swAiM6cPFZFNXHxy8c8aDhybXdntvrpF6vEs57-44GeCBt2l4ih0V4zWMxR8Gp4oaj36dRg
 1 > Content-Type: application/json; charset=UTF-8
-1 > Content-Length: 169
+1 > Content-Length: 200
 1 > Host: api-pagsubok.viewall.dk
 1 > Connection: Keep-Alive
 1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.23)
 1 > Accept-Encoding: gzip,deflate
-{"categoryId":4,"depotId":10,"description":"Investment 4","quantity":1,"purchasePriceAvg":1,"currentPrice":200000,"currencyCode":"#(currencyCode)","investedPrivately":1}
+{"categoryId":4,"depotId":10,"description":"Investment 4","quantity":1,"purchasePriceAvg":1,"currentPrice":200000,"currencyCode":"DKK","investedPrivately":1,"insref":6706046,"notes":"Karate API Test"}
 
-18:36:42.752 [pool-2-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 796
-1 < 500
-1 < content-type: text/plain
-1 < date: Thu, 04 Jul 2024 10:36:43 GMT
+15:16:52.608 [main] DEBUG com.intuit.karate - response time in milliseconds: 1004
+1 < 200
+1 < content-length: 345
+1 < content-type: application/json; charset=utf-8
+1 < date: Fri, 05 Jul 2024 07:16:52 GMT
 1 < server: Kestrel
 1 < request-context: appId=cid-v1:3fd22e07-3840-4488-be75-bfd2a37f8f04
 1 < x-frame-options: SAMEORIGIN
@@ -496,64 +362,130 @@ classpath:viewall/features/CreateInvestment.feature:22
 1 < referrer-policy: strict-origin
 1 < permissions-policy: accelerometer=(); camera=(); geolocation=(); gyroscope=(); magnetometer=(); microphone=(); payment=(); usb=()
 1 < content-security-policy: default-src 'none';
-1 < transfer-encoding: chunked
-hmmm... that shouldn't have happened. Let's call my supervisor.
+{"id":720,"userId":1076,"categoryId":4,"depotId":10,"description":"Investment 4","quantity":1.0,"purchasePriceAvg":1.0,"investedValue":1.0,"currentPrice":200000.0,"currentValue":200000.0,"gainLoss":19999900.0,"weight":0.0,"investedPrivately":1,"byAdvisor":false,"lastUpdatedDate":"07/05/2024 07:16:53","insref":6706046,"notes":"Karate API Test"}
 
-18:36:42.753 [pool-2-thread-5] ERROR com.intuit.karate - classpath:viewall/features/CreateInvestment.feature:22
-Then status 200
-status code was: 500, expected: 200, response time in milliseconds: 796, url: https://api-pagsubok.viewall.dk/api/v1/investments, response: 
-hmmm... that shouldn't have happened. Let's call my supervisor.
-classpath:viewall/features/CreateInvestment.feature:22
-18:36:42.754 [pool-2-thread-5] ERROR com.intuit.karate - classpath:viewall/features/GetRiskScoreAnalysis.feature:17
-* def resultInvestments =  call read('CreateInvestment.feature') investments
-feature call loop failed at index: 3, status code was: 500, expected: 200, response time in milliseconds: 796, url: https://api-pagsubok.viewall.dk/api/v1/investments, response: 
-hmmm... that shouldn't have happened. Let's call my supervisor.
-classpath:viewall/features/CreateInvestment.feature:22
-18:36:42.754 [pool-2-thread-5] ERROR com.intuit.karate - classpath:viewall/features/GetRiskScoreAnalysis.feature:17
-* def resultInvestments =  call read('CreateInvestment.feature') investments
-feature call loop failed at index: 0, status code was: 500, expected: 200, response time in milliseconds: 1038, url: https://api-pagsubok.viewall.dk/api/v1/investments, response: 
-hmmm... that shouldn't have happened. Let's call my supervisor.
-classpath:viewall/features/CreateInvestment.feature:22
-feature call loop failed at index: 1, status code was: 500, expected: 200, response time in milliseconds: 934, url: https://api-pagsubok.viewall.dk/api/v1/investments, response: 
-hmmm... that shouldn't have happened. Let's call my supervisor.
-classpath:viewall/features/CreateInvestment.feature:22
-feature call loop failed at index: 2, status code was: 500, expected: 200, response time in milliseconds: 774, url: https://api-pagsubok.viewall.dk/api/v1/investments, response: 
-hmmm... that shouldn't have happened. Let's call my supervisor.
-classpath:viewall/features/CreateInvestment.feature:22
-feature call loop failed at index: 3, status code was: 500, expected: 200, response time in milliseconds: 796, url: https://api-pagsubok.viewall.dk/api/v1/investments, response: 
-hmmm... that shouldn't have happened. Let's call my supervisor.
-classpath:viewall/features/CreateInvestment.feature:22
-classpath:viewall/features/GetRiskScoreAnalysis.feature:17
+15:16:52.617 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api-pagsubok.viewall.dk/api/v1/properties
+1 > Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJZVzZnZTkxakpPZnZjWm9obkJmS1FCZnlLLTFKVE9Fa2h6N2lscVk3OS0wIn0.eyJleHAiOjE3MjAyNTAyMDQsImlhdCI6MTcyMDE2MzgwNCwianRpIjoiOTc3ZWU2YzctZGRmYi00OTQ0LTgzZjQtZGJkYWNhYTQwY2E5IiwiaXNzIjoiaHR0cHM6Ly9kZXYtaWFtLXZpZXdhbGwud2VzdGV1cm9wZS5jbG91ZGFwcC5henVyZS5jb20vcmVhbG1zL1ZpZXdBbGwiLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiMzJjYTZlYWYtOTQyZC00MDZiLWIxMTYtNTE2NTE1MTI0M2VhIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiVmlld0FsbC5XZWJBcHAiLCJzZXNzaW9uX3N0YXRlIjoiYjc4YWJlMDgtYTcwZS00NDgxLTk2N2ItOTU2MDU5NjlkOTI0IiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyJodHRwczovL3BhZ3N1Ym9rLnZpZXdhbGwuZGsiLCJodHRwczovL2xvY2FsaG9zdDozMDAwIiwiaHR0cHM6Ly9sb2NhbGhvc3Q6NzI4MS8qIiwiaHR0cDovL2xvY2FsaG9zdDozMDAwLyoiLCJodHRwczovL2Rldi1pYW0tdmlld2FsbC53ZXN0ZXVyb3BlLmNsb3VkYXBwLmF6dXJlLmNvbSIsImh0dHA6Ly9sb2NhbGhvc3Q6MzAwMS8qIiwiaHR0cDovL2xvY2FsaG9zdDozMDAxIiwiaHR0cDovL2xvY2FsaG9zdDozMDAwIiwiaHR0cHM6Ly9sb2NhbGhvc3Q6MzAwMC8qIl0sInNjb3BlIjoib3BlbmlkIGVtYWlsIHByb2ZpbGUiLCJzaWQiOiJiNzhhYmUwOC1hNzBlLTQ0ODEtOTY3Yi05NTYwNTk2OWQ5MjQiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZG9iIjoiMTktMDQtMTk5NSIsInJvbGVzIjpbImRlZmF1bHQtcm9sZXMtdmlld2FsbCIsIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXSwibmFtZSI6IkFsYnVzIER1bWJsZWRvcmUiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJkYm1pZ3Jpbm9AZ21haWwuY29tIiwiZ2l2ZW5fbmFtZSI6IkFsYnVzIiwiZmFtaWx5X25hbWUiOiJEdW1ibGVkb3JlIiwiZW1haWwiOiJkYm1pZ3Jpbm9AZ21haWwuY29tIn0.cbCwXvL9P6IuudE5TGovbzB81a1DViID-BCOsBGkNxgKdvYjzY7znWPpofFgXUlPvnwaxsDwEm8idozBir1YmZ1kkmUGEvXX4daDcbghMdrfHS8LI-MQ7hlL1vuj-X3jTd7b3Rc3qAijTNmwYEbnTM7YXARkR0GLHGyKVGGqsNPTCLZFSKF79haFJ2R6cnuLTiUn8wzQz6Tj8290gJRE38bD43TsX_Nth82zFP-tgLFrQfvF8AxcEVnwXzQ6eCQqDAyef9ArdjUDJY7swAiM6cPFZFNXHxy8c8aDhybXdntvrpF6vEs57-44GeCBt2l4ih0V4zWMxR8Gp4oaj36dRg
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 167
+1 > Host: api-pagsubok.viewall.dk
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.23)
+1 > Accept-Encoding: gzip,deflate
+{"typeId":1,"addressStreet":"RE Karate API Test","cityZipCode":"2000","countryCode":"DK","valueEstimated":"50000000","ownershipPercent":"50","mortgages":[],"loans":[]}
+
+15:16:53.443 [main] DEBUG com.intuit.karate - response time in milliseconds: 823
+1 < 201
+1 < content-length: 211
+1 < content-type: application/json; charset=utf-8
+1 < date: Fri, 05 Jul 2024 07:16:53 GMT
+1 < server: Kestrel
+1 < location: 
+1 < request-context: appId=cid-v1:3fd22e07-3840-4488-be75-bfd2a37f8f04
+1 < x-frame-options: SAMEORIGIN
+1 < x-content-type-options: nosniff
+1 < strict-transport-security: max-age=31536000; includeSubDomains
+1 < x-xss-protection: 1; mode=block
+1 < referrer-policy: strict-origin
+1 < permissions-policy: accelerometer=(); camera=(); geolocation=(); gyroscope=(); magnetometer=(); microphone=(); payment=(); usb=()
+1 < content-security-policy: default-src 'none';
+{"id":549,"userId":1076,"typeId":1,"addressStreet":"RE Karate API Test","cityZipCode":"2000","countryCode":"DK","valueEstimated":50000000.0,"ownershipPercent":50.0,"totalLiabilities":0.0,"assetValue":50000000.0}
+
+15:16:53.452 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api-pagsubok.viewall.dk/api/v1/properties
+1 > Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJZVzZnZTkxakpPZnZjWm9obkJmS1FCZnlLLTFKVE9Fa2h6N2lscVk3OS0wIn0.eyJleHAiOjE3MjAyNTAyMDQsImlhdCI6MTcyMDE2MzgwNCwianRpIjoiOTc3ZWU2YzctZGRmYi00OTQ0LTgzZjQtZGJkYWNhYTQwY2E5IiwiaXNzIjoiaHR0cHM6Ly9kZXYtaWFtLXZpZXdhbGwud2VzdGV1cm9wZS5jbG91ZGFwcC5henVyZS5jb20vcmVhbG1zL1ZpZXdBbGwiLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiMzJjYTZlYWYtOTQyZC00MDZiLWIxMTYtNTE2NTE1MTI0M2VhIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiVmlld0FsbC5XZWJBcHAiLCJzZXNzaW9uX3N0YXRlIjoiYjc4YWJlMDgtYTcwZS00NDgxLTk2N2ItOTU2MDU5NjlkOTI0IiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyJodHRwczovL3BhZ3N1Ym9rLnZpZXdhbGwuZGsiLCJodHRwczovL2xvY2FsaG9zdDozMDAwIiwiaHR0cHM6Ly9sb2NhbGhvc3Q6NzI4MS8qIiwiaHR0cDovL2xvY2FsaG9zdDozMDAwLyoiLCJodHRwczovL2Rldi1pYW0tdmlld2FsbC53ZXN0ZXVyb3BlLmNsb3VkYXBwLmF6dXJlLmNvbSIsImh0dHA6Ly9sb2NhbGhvc3Q6MzAwMS8qIiwiaHR0cDovL2xvY2FsaG9zdDozMDAxIiwiaHR0cDovL2xvY2FsaG9zdDozMDAwIiwiaHR0cHM6Ly9sb2NhbGhvc3Q6MzAwMC8qIl0sInNjb3BlIjoib3BlbmlkIGVtYWlsIHByb2ZpbGUiLCJzaWQiOiJiNzhhYmUwOC1hNzBlLTQ0ODEtOTY3Yi05NTYwNTk2OWQ5MjQiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZG9iIjoiMTktMDQtMTk5NSIsInJvbGVzIjpbImRlZmF1bHQtcm9sZXMtdmlld2FsbCIsIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXSwibmFtZSI6IkFsYnVzIER1bWJsZWRvcmUiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJkYm1pZ3Jpbm9AZ21haWwuY29tIiwiZ2l2ZW5fbmFtZSI6IkFsYnVzIiwiZmFtaWx5X25hbWUiOiJEdW1ibGVkb3JlIiwiZW1haWwiOiJkYm1pZ3Jpbm9AZ21haWwuY29tIn0.cbCwXvL9P6IuudE5TGovbzB81a1DViID-BCOsBGkNxgKdvYjzY7znWPpofFgXUlPvnwaxsDwEm8idozBir1YmZ1kkmUGEvXX4daDcbghMdrfHS8LI-MQ7hlL1vuj-X3jTd7b3Rc3qAijTNmwYEbnTM7YXARkR0GLHGyKVGGqsNPTCLZFSKF79haFJ2R6cnuLTiUn8wzQz6Tj8290gJRE38bD43TsX_Nth82zFP-tgLFrQfvF8AxcEVnwXzQ6eCQqDAyef9ArdjUDJY7swAiM6cPFZFNXHxy8c8aDhybXdntvrpF6vEs57-44GeCBt2l4ih0V4zWMxR8Gp4oaj36dRg
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 167
+1 > Host: api-pagsubok.viewall.dk
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.23)
+1 > Accept-Encoding: gzip,deflate
+{"typeId":2,"addressStreet":"RE Karate API Test","cityZipCode":"2000","countryCode":"DK","valueEstimated":"2500000","ownershipPercent":"100","mortgages":[],"loans":[]}
+
+15:16:54.388 [main] DEBUG com.intuit.karate - response time in milliseconds: 935
+1 < 201
+1 < content-length: 210
+1 < content-type: application/json; charset=utf-8
+1 < date: Fri, 05 Jul 2024 07:16:54 GMT
+1 < server: Kestrel
+1 < location: 
+1 < request-context: appId=cid-v1:3fd22e07-3840-4488-be75-bfd2a37f8f04
+1 < x-frame-options: SAMEORIGIN
+1 < x-content-type-options: nosniff
+1 < strict-transport-security: max-age=31536000; includeSubDomains
+1 < x-xss-protection: 1; mode=block
+1 < referrer-policy: strict-origin
+1 < permissions-policy: accelerometer=(); camera=(); geolocation=(); gyroscope=(); magnetometer=(); microphone=(); payment=(); usb=()
+1 < content-security-policy: default-src 'none';
+{"id":550,"userId":1076,"typeId":2,"addressStreet":"RE Karate API Test","cityZipCode":"2000","countryCode":"DK","valueEstimated":2500000.0,"ownershipPercent":100.0,"totalLiabilities":0.0,"assetValue":2500000.0}
+
+15:16:54.402 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api-pagsubok.viewall.dk/api/v1/wealth-savings
+1 > Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJZVzZnZTkxakpPZnZjWm9obkJmS1FCZnlLLTFKVE9Fa2h6N2lscVk3OS0wIn0.eyJleHAiOjE3MjAyNTAyMDQsImlhdCI6MTcyMDE2MzgwNCwianRpIjoiOTc3ZWU2YzctZGRmYi00OTQ0LTgzZjQtZGJkYWNhYTQwY2E5IiwiaXNzIjoiaHR0cHM6Ly9kZXYtaWFtLXZpZXdhbGwud2VzdGV1cm9wZS5jbG91ZGFwcC5henVyZS5jb20vcmVhbG1zL1ZpZXdBbGwiLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiMzJjYTZlYWYtOTQyZC00MDZiLWIxMTYtNTE2NTE1MTI0M2VhIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiVmlld0FsbC5XZWJBcHAiLCJzZXNzaW9uX3N0YXRlIjoiYjc4YWJlMDgtYTcwZS00NDgxLTk2N2ItOTU2MDU5NjlkOTI0IiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyJodHRwczovL3BhZ3N1Ym9rLnZpZXdhbGwuZGsiLCJodHRwczovL2xvY2FsaG9zdDozMDAwIiwiaHR0cHM6Ly9sb2NhbGhvc3Q6NzI4MS8qIiwiaHR0cDovL2xvY2FsaG9zdDozMDAwLyoiLCJodHRwczovL2Rldi1pYW0tdmlld2FsbC53ZXN0ZXVyb3BlLmNsb3VkYXBwLmF6dXJlLmNvbSIsImh0dHA6Ly9sb2NhbGhvc3Q6MzAwMS8qIiwiaHR0cDovL2xvY2FsaG9zdDozMDAxIiwiaHR0cDovL2xvY2FsaG9zdDozMDAwIiwiaHR0cHM6Ly9sb2NhbGhvc3Q6MzAwMC8qIl0sInNjb3BlIjoib3BlbmlkIGVtYWlsIHByb2ZpbGUiLCJzaWQiOiJiNzhhYmUwOC1hNzBlLTQ0ODEtOTY3Yi05NTYwNTk2OWQ5MjQiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZG9iIjoiMTktMDQtMTk5NSIsInJvbGVzIjpbImRlZmF1bHQtcm9sZXMtdmlld2FsbCIsIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXSwibmFtZSI6IkFsYnVzIER1bWJsZWRvcmUiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJkYm1pZ3Jpbm9AZ21haWwuY29tIiwiZ2l2ZW5fbmFtZSI6IkFsYnVzIiwiZmFtaWx5X25hbWUiOiJEdW1ibGVkb3JlIiwiZW1haWwiOiJkYm1pZ3Jpbm9AZ21haWwuY29tIn0.cbCwXvL9P6IuudE5TGovbzB81a1DViID-BCOsBGkNxgKdvYjzY7znWPpofFgXUlPvnwaxsDwEm8idozBir1YmZ1kkmUGEvXX4daDcbghMdrfHS8LI-MQ7hlL1vuj-X3jTd7b3Rc3qAijTNmwYEbnTM7YXARkR0GLHGyKVGGqsNPTCLZFSKF79haFJ2R6cnuLTiUn8wzQz6Tj8290gJRE38bD43TsX_Nth82zFP-tgLFrQfvF8AxcEVnwXzQ6eCQqDAyef9ArdjUDJY7swAiM6cPFZFNXHxy8c8aDhybXdntvrpF6vEs57-44GeCBt2l4ih0V4zWMxR8Gp4oaj36dRg
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 126
+1 > Host: api-pagsubok.viewall.dk
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.23)
+1 > Accept-Encoding: gzip,deflate
+{"description":"Savings 1","currentValue":500000,"ownershipPercentage":100,"amountSaved":800,"includePensionCalculation":true}
+
+15:16:55.631 [main] DEBUG com.intuit.karate - response time in milliseconds: 1228
+1 < 200
+1 < content-length: 214
+1 < content-type: application/json; charset=utf-8
+1 < date: Fri, 05 Jul 2024 07:16:56 GMT
+1 < server: Kestrel
+1 < request-context: appId=cid-v1:3fd22e07-3840-4488-be75-bfd2a37f8f04
+1 < x-frame-options: SAMEORIGIN
+1 < x-content-type-options: nosniff
+1 < strict-transport-security: max-age=31536000; includeSubDomains
+1 < x-xss-protection: 1; mode=block
+1 < referrer-policy: strict-origin
+1 < permissions-policy: accelerometer=(); camera=(); geolocation=(); gyroscope=(); magnetometer=(); microphone=(); payment=(); usb=()
+1 < content-security-policy: default-src 'none';
+{"id":274,"userId":1076,"description":"Savings 1","currentValue":500000.0,"ownershipPercentage":100.0,"amountSaved":800.0,"lastUpdatedDate":"07/05/2024 07:16:56","includePensionCalculation":true,"countryCode":null}
+
+15:16:55.635 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api-pagsubok.viewall.dk/api/v1/risks/score
+1 > Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJZVzZnZTkxakpPZnZjWm9obkJmS1FCZnlLLTFKVE9Fa2h6N2lscVk3OS0wIn0.eyJleHAiOjE3MjAyNTAyMDQsImlhdCI6MTcyMDE2MzgwNCwianRpIjoiOTc3ZWU2YzctZGRmYi00OTQ0LTgzZjQtZGJkYWNhYTQwY2E5IiwiaXNzIjoiaHR0cHM6Ly9kZXYtaWFtLXZpZXdhbGwud2VzdGV1cm9wZS5jbG91ZGFwcC5henVyZS5jb20vcmVhbG1zL1ZpZXdBbGwiLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiMzJjYTZlYWYtOTQyZC00MDZiLWIxMTYtNTE2NTE1MTI0M2VhIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiVmlld0FsbC5XZWJBcHAiLCJzZXNzaW9uX3N0YXRlIjoiYjc4YWJlMDgtYTcwZS00NDgxLTk2N2ItOTU2MDU5NjlkOTI0IiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyJodHRwczovL3BhZ3N1Ym9rLnZpZXdhbGwuZGsiLCJodHRwczovL2xvY2FsaG9zdDozMDAwIiwiaHR0cHM6Ly9sb2NhbGhvc3Q6NzI4MS8qIiwiaHR0cDovL2xvY2FsaG9zdDozMDAwLyoiLCJodHRwczovL2Rldi1pYW0tdmlld2FsbC53ZXN0ZXVyb3BlLmNsb3VkYXBwLmF6dXJlLmNvbSIsImh0dHA6Ly9sb2NhbGhvc3Q6MzAwMS8qIiwiaHR0cDovL2xvY2FsaG9zdDozMDAxIiwiaHR0cDovL2xvY2FsaG9zdDozMDAwIiwiaHR0cHM6Ly9sb2NhbGhvc3Q6MzAwMC8qIl0sInNjb3BlIjoib3BlbmlkIGVtYWlsIHByb2ZpbGUiLCJzaWQiOiJiNzhhYmUwOC1hNzBlLTQ0ODEtOTY3Yi05NTYwNTk2OWQ5MjQiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZG9iIjoiMTktMDQtMTk5NSIsInJvbGVzIjpbImRlZmF1bHQtcm9sZXMtdmlld2FsbCIsIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXSwibmFtZSI6IkFsYnVzIER1bWJsZWRvcmUiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJkYm1pZ3Jpbm9AZ21haWwuY29tIiwiZ2l2ZW5fbmFtZSI6IkFsYnVzIiwiZmFtaWx5X25hbWUiOiJEdW1ibGVkb3JlIiwiZW1haWwiOiJkYm1pZ3Jpbm9AZ21haWwuY29tIn0.cbCwXvL9P6IuudE5TGovbzB81a1DViID-BCOsBGkNxgKdvYjzY7znWPpofFgXUlPvnwaxsDwEm8idozBir1YmZ1kkmUGEvXX4daDcbghMdrfHS8LI-MQ7hlL1vuj-X3jTd7b3Rc3qAijTNmwYEbnTM7YXARkR0GLHGyKVGGqsNPTCLZFSKF79haFJ2R6cnuLTiUn8wzQz6Tj8290gJRE38bD43TsX_Nth82zFP-tgLFrQfvF8AxcEVnwXzQ6eCQqDAyef9ArdjUDJY7swAiM6cPFZFNXHxy8c8aDhybXdntvrpF6vEs57-44GeCBt2l4ih0V4zWMxR8Gp4oaj36dRg
+1 > Host: api-pagsubok.viewall.dk
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.23)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:17:04.747 [main] DEBUG com.intuit.karate - response time in milliseconds: 9111
+1 < 200
+1 < content-length: 15
+1 < content-type: application/json; charset=utf-8
+1 < date: Fri, 05 Jul 2024 07:17:04 GMT
+1 < server: Kestrel
+1 < request-context: appId=cid-v1:3fd22e07-3840-4488-be75-bfd2a37f8f04
+1 < x-frame-options: SAMEORIGIN
+1 < x-content-type-options: nosniff
+1 < strict-transport-security: max-age=31536000; includeSubDomains
+1 < x-xss-protection: 1; mode=block
+1 < referrer-policy: strict-origin
+1 < permissions-policy: accelerometer=(); camera=(); geolocation=(); gyroscope=(); magnetometer=(); microphone=(); payment=(); usb=()
+1 < content-security-policy: default-src 'none';
+{"riskScore":3}
+
+15:17:04.749 [main] INFO  com.intuit.karate - [print] 3 
 ---------------------------------------------------------
 feature: classpath:viewall/features/GetRiskScoreAnalysis.feature
-scenarios:  1 | passed:  0 | failed:  1 | time: 5.4707
+scenarios:  1 | passed:  1 | failed:  0 | time: 16.8039
 ---------------------------------------------------------
 
-18:36:42.837 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 5 of 5 (0 remaining) classpath:viewall/features/GetRiskScoreAnalysis.feature
+15:17:04.879 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 5 of 5 (0 remaining) classpath:viewall/features/GetRiskScoreAnalysis.feature
+15:17:04.880 [main] DEBUG com.intuit.karate.Suite - waiting for 5 features to complete
 Karate version: 1.4.1
 ======================================================
-elapsed:   7.92 | threads:    5 | thread time: 12.16 
-features:     5 | skipped:    0 | efficiency: 0.31
-scenarios:    5 | passed:     3 | failed: 2
+elapsed:  23.46 | threads:    1 | thread time: 20.54 
+features:     5 | skipped:    0 | efficiency: 0.88
+scenarios:    5 | passed:     5 | failed: 0
 ======================================================
->>> failed features:
-status code was: 400, expected: 200, response time in milliseconds: 1705, url: https://api-pagsubok.viewall.dk/api/v1/investments, response: 
-{"errors":{"request":["The request field is required."],"categoryId":["Error converting value \"#(parseInt(categoryId))\" to type 'System.Int64'. Path 'categoryId', line 1, position 39."],"currentPrice":["Could not convert string to decimal: #(parseInt(currentValue)). Path 'currentPrice', line 1, position 160."]},"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-a1b86c76246e98f7397805e4a8bc7f25-004d273a31eb4e46-00"}
-classpath:viewall/features/CreateInvestment.feature:22
-feature call loop failed at index: 0, status code was: 500, expected: 200, response time in milliseconds: 1038, url: https://api-pagsubok.viewall.dk/api/v1/investments, response: 
-hmmm... that shouldn't have happened. Let's call my supervisor.
-classpath:viewall/features/CreateInvestment.feature:22
-feature call loop failed at index: 1, status code was: 500, expected: 200, response time in milliseconds: 934, url: https://api-pagsubok.viewall.dk/api/v1/investments, response: 
-hmmm... that shouldn't have happened. Let's call my supervisor.
-classpath:viewall/features/CreateInvestment.feature:22
-feature call loop failed at index: 2, status code was: 500, expected: 200, response time in milliseconds: 774, url: https://api-pagsubok.viewall.dk/api/v1/investments, response: 
-hmmm... that shouldn't have happened. Let's call my supervisor.
-classpath:viewall/features/CreateInvestment.feature:22
-feature call loop failed at index: 3, status code was: 500, expected: 200, response time in milliseconds: 796, url: https://api-pagsubok.viewall.dk/api/v1/investments, response: 
-hmmm... that shouldn't have happened. Let's call my supervisor.
-classpath:viewall/features/CreateInvestment.feature:22
-classpath:viewall/features/GetRiskScoreAnalysis.feature:17
-<<<
 
 HTML report: (paste into browser to view) | Karate version: 1.4.1
 file:///C:/Users/DEWISE%20SOLUTIONS/source/repos/viewall-karate/target/karate-reports/karate-summary.html

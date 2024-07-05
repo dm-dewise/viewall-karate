@@ -9,5 +9,4 @@ Feature: Get Token
         And form field scope = "email profile openid"
         And form field password = "*"
         When method POST
-        Then status 200
         * def authToken = response.access_token

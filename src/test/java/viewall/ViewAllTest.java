@@ -10,9 +10,8 @@ class ViewAllTest {
     @Test
     void testParallel() {
         Results results = Runner.path("classpath:viewall")
-                // .outputCucumberJson(true)
-                .parallel(5);
+                .outputCucumberJson(true)
+                .parallel(1);
         assertEquals(0, results.getFailCount(), results.getErrorMessages());
     }
-
 }
